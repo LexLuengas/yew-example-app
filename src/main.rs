@@ -1,8 +1,8 @@
-extern crate yew;
 extern crate wasm_spa;
+extern crate yew;
 
-use yew::prelude::App;
 use wasm_spa::Model;
+use yew::prelude::App;
 
 fn main() {
     yew::initialize();
