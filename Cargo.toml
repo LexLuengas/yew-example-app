@@ -1,0 +1,12 @@
+[package]
+name = "wasm-spa"
+version = "0.1.0"
+authors = ["Alexis Luengas <al096@hdm-stuttgart.de>"]
+
+[dependencies]
+log = "0.4"
+web_logger = "0.1"
+serde = "1.0"
+serde_derive = "1.0"
+stdweb = "0.4"
+yew = { git = "https://github.com/DenisKolodin/yew", features = ["cbor"] }
