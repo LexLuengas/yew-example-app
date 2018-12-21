@@ -1,6 +1,6 @@
 //! Agent that exposes a usable routing interface to components.
 
-use crate::routing::RouteService;
+use crate::routing_service::RouterService;
 
 use yew::prelude::worker::*;
 
@@ -16,7 +16,7 @@ use serde::Serialize;
 use std::fmt::Debug;
 
 /// Route object, representing a string with the structure "/path_segments*?query#fragment"
-#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
+#[derive(Clone, Debug, Default, PartialEq, Serialize, Deserialize)]
 pub struct Route<T> {
     pub path_segments: Vec<String>,
     pub query: Option<String>,
@@ -40,7 +40,7 @@ where
         path
     }
 
-    pub fn current_route(route_service: &RouteService<T>) -> Self {
+    pub fn current_route(route_service: &RouterService<T>) -> Self {
         let path = route_service.get_path(); // guaranteed to always start with a '/'
         let mut path_segments: Vec<String> = path.split("/").map(String::from).collect();
         path_segments.remove(0); // remove empty string that is split from the first '/'
@@ -90,7 +90,7 @@ pub enum Request<T> {
 
 impl<T> Transferable for Request<T> where for<'de> T: Serialize + Deserialize<'de> {}
 
-/// The Router worker holds on to the RouteService singleton and mediates access to it.
+/// The Router worker holds on to the RouterService singleton and mediates access to it.
 pub struct Router<T>
 where
     for<'de> T: JsSerialize
@@ -103,7 +103,7 @@ where
         + 'static,
 {
     link: AgentLink<Router<T>>,
-    route_service: RouteService<T>,
+    route_service: RouterService<T>,
     /// A list of all entities connected to the router.
     /// When a route changes, either initiated by the browser or by the app,
     /// the route change will be broadcast to all listening entities.
@@ -130,7 +130,7 @@ where
         let callback = link.send_back(|route_changed: (String, T)| {
             Msg::BrowserNavigationRouteChanged(route_changed)
         });
-        let mut route_service = RouteService::new();
+        let mut route_service = RouterService::new();
         route_service.register_callback(callback);
 
         Router {

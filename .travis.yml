@@ -1,0 +1,17 @@
+language: rust
+addons:
+  chrome: stable
+rust:
+  - stable
+  - beta
+  - nightly
+matrix:
+  allow_failures:
+    - rust: nightly
+  fast_finish: true
+install:
+  - ./install.sh
+  - cargo install cargo-web
+script:
+  - cargo web build --verbose --target=wasm32-unknown-unknown
+  - cargo web test --verbose --target=wasm32-unknown-unknown

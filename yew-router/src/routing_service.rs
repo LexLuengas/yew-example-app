@@ -17,23 +17,23 @@ use std::marker::PhantomData;
 /// 'forward' and 'back' events.
 ///
 /// The `T` determines what route state can be stored in the route service.
-pub struct RouteService<T> {
+pub struct RouterService<T> {
     history: History,
     location: Location,
     event_listener: Option<EventListenerHandle>,
     phantom_data: PhantomData<T>,
 }
 
-impl<T> RouteService<T>
+impl<T> RouterService<T>
 where
     T: JsSerialize + Clone + TryFrom<Value> + 'static,
 {
     /// Creates the route service.
-    pub fn new() -> RouteService<T> {
+    pub fn new() -> RouterService<T> {
         let location = window()
             .location()
             .expect("browser does not support location API");
-        RouteService {
+        RouterService {
             history: window().history(),
             location,
             event_listener: None,
