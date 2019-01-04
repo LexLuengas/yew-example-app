@@ -1,0 +1,19 @@
+// main: styles.less
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    >nav.navbar {
+        order: 1; // place navbar element always before body
+    }
+    >.body-container {
+        order: 2;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+}

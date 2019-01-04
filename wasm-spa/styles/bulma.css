@@ -1,4 +1,4 @@
-@import "font-awesome/css/all.min.css";/*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
+/*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -10286,4 +10286,4 @@ label.panel-block:hover {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
-/*# sourceMappingURL=bulma.css.map */html,body{height:100%}body{display:flex;flex-direction:column}body>nav.navbar{order:1}body>.body-container{order:2;flex-grow:1;flex-shrink:1}/*# sourceMappingURL=./styles.css.map */
+/*# sourceMappingURL=bulma.css.map */

@@ -10,10 +10,10 @@ extern crate yew;
 #[macro_use]
 extern crate yew_router;
 extern crate stdweb;
+extern crate util;
 
 // Module structure
 mod components;
-mod routes;
 
 // Expose Model from app component
 pub use crate::components::root::Model;

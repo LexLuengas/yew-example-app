@@ -2,5 +2,7 @@
 
 members = [
     "wasm-spa",
-    "yew-router",
+    "yew-router-example",
+    "util",
+    "common"
 ]

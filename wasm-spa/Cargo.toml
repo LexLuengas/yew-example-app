@@ -9,5 +9,6 @@ web_logger = "0.1"
 serde = "1.0"
 serde_derive = "1.0"
 stdweb = "0.4"
-yew = { git = "https://github.com/DenisKolodin/yew", features = ["cbor"] }
-yew-router = { path = "../yew-router" }
+util = { path = "../util" }
+yew_router = { git = "https://github.com/hgzimmerman/YewRouter", rev = "08063508edd572273b3d4d62865c4260cea6c0cc" }
+yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
