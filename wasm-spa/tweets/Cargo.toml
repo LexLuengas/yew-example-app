@@ -7,7 +7,6 @@ edition = "2018"
 [dependencies]
 common = {path = "../common" }
 wire = {path = "../wire"}
-identifiers = {path = "../identifiers"}
 util = {path = "../util"}
 
 yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }

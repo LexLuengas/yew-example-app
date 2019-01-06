@@ -1,12 +1,27 @@
+#[macro_use]
+extern crate log;
+extern crate serde;
+#[macro_use]
+extern crate serde_derive;
+#[macro_use]
+extern crate yew;
+extern crate yew_router;
+
+extern crate common;
+extern crate util;
+extern crate wire;
+
+mod requests;
+
 use yew::prelude::*;
 use yew_router::prelude::*;
 
+use crate::requests::TwitterRequest;
 use common::datatypes::tweet::TweetData;
 use common::fetch::{FetchResponse, Networking};
-use components::twitter_requests::TwitterRequest;
 use util::loadable::Loadable;
 use util::button::Button;
-use wire::tweet::TweetResponse;
+// use wire::tweet::TweetResponse;
 use wire::tweet::TestResponse;
 
 pub struct TweetList {

@@ -5,3 +5,6 @@ authors = ["Alexis Luengas <alexis.luengas@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
+log = "0.4"
+failure = "0.1"

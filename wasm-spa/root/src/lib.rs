@@ -1,10 +1,17 @@
+extern crate header;
+extern crate header_input;
+extern crate tweets;
+#[macro_use]
+extern crate yew;
+#[macro_use]
+extern crate yew_router;
+
 use yew::prelude::*;
 use yew_router::prelude::*;
-use components::tweet_list::TweetList;
-use components::header::Model as Header;
-use components::keyword_input::Model as KeywordInput;
 
-// https://ads-api.twitter.com/4/insights/keywords/search?granularity=DAY&keywords=developers&start_time=2018-02-01&end_time=2018-03-01
+use tweets::TweetList;
+use header::Model as Header;
+use header_input::Model as HeaderInput;
 
 pub struct Model;
 
@@ -26,7 +33,7 @@ impl Renderable<Model> for Model {
         html! {
             <>
                 <Header: />
-                <KeywordInput: />
+                <HeaderInput: />
                 <section class="section body-container",>
                     <div class="container",>
                         <YewRouter: routes=routes![TweetList], page_not_found=Some(DefaultPage(routing_failed_page)), />

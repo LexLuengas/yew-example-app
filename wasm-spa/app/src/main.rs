@@ -1,11 +1,11 @@
-extern crate wasm_spa;
-extern crate yew;
-
 #[macro_use]
 extern crate log;
 extern crate web_logger;
+extern crate yew;
 
-use wasm_spa::Model;
+extern crate root;
+
+use root::Model;
 use yew::prelude::App;
 
 fn main() {

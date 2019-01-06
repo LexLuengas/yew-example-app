@@ -1,7 +1,10 @@
+#[macro_use]
+extern crate yew;
 
 use yew::prelude::*;
 
 pub struct Model {
+    #[allow(dead_code)]
     keywords: Vec<String>,
 }
 

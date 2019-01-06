@@ -152,10 +152,24 @@ dependencies = [
 [[package]]
 name = "header"
 version = "0.1.0"
+dependencies = [
+ "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_derive 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
+ "stdweb 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew 0.5.0 (git+https://github.com/DenisKolodin/yew?rev=49319b8c02a8eeb15ed4c8a8761f83adcee856b0)",
+ "yew_router 0.1.0 (git+https://github.com/hgzimmerman/YewRouter?rev=08063508edd572273b3d4d62865c4260cea6c0cc)",
+]
 
 [[package]]
 name = "header-input"
 version = "0.1.0"
+dependencies = [
+ "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew 0.5.0 (git+https://github.com/DenisKolodin/yew?rev=49319b8c02a8eeb15ed4c8a8761f83adcee856b0)",
+]
 
 [[package]]
 name = "http"
@@ -247,9 +261,12 @@ name = "root"
 version = "0.1.0"
 dependencies = [
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "header 0.1.0",
+ "header-input 0.1.0",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tweets 0.1.0",
  "yew 0.5.0 (git+https://github.com/DenisKolodin/yew?rev=49319b8c02a8eeb15ed4c8a8761f83adcee856b0)",
  "yew_router 0.1.0 (git+https://github.com/hgzimmerman/YewRouter?rev=08063508edd572273b3d4d62865c4260cea6c0cc)",
 ]
@@ -398,7 +415,6 @@ version = "0.1.0"
 dependencies = [
  "common 0.1.0",
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
- "identifiers 0.1.0",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -441,16 +457,10 @@ dependencies = [
 name = "wasm-spa"
 version = "0.1.0"
 dependencies = [
- "common 0.1.0",
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde_derive 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
- "stdweb 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)",
- "util 0.1.0",
+ "root 0.1.0",
  "web_logger 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "wire 0.1.0",
  "yew 0.5.0 (git+https://github.com/DenisKolodin/yew?rev=49319b8c02a8eeb15ed4c8a8761f83adcee856b0)",
- "yew_router 0.1.0 (git+https://github.com/hgzimmerman/YewRouter?rev=08063508edd572273b3d4d62865c4260cea6c0cc)",
 ]
 
 [[package]]
