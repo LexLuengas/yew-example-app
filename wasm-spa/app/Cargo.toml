@@ -1,0 +1,16 @@
+[package]
+name = "wasm-spa"
+version = "0.1.0"
+authors = ["Alexis Luengas <al096@hdm-stuttgart.de>"]
+
+[dependencies]
+log = "0.4"
+web_logger = "0.1"
+serde = "1.0"
+serde_derive = "1.0"
+stdweb = "0.4"
+common = { path = "../common" }
+util = { path = "../util" }
+wire = { path = "../wire" }
+yew_router = { git = "https://github.com/hgzimmerman/YewRouter", rev = "08063508edd572273b3d4d62865c4260cea6c0cc" }
+yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }

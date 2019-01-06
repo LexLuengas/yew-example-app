@@ -1,2 +1,3 @@
 target/
 .vscode/
+mock-api/twit_config.json

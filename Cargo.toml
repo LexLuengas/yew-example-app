@@ -1,8 +1,0 @@
-[workspace]
-
-members = [
-    "wasm-spa",
-    "yew-router-example",
-    "util",
-    "common"
-]

@@ -1,0 +1,2215 @@
+The system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/3.9.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: -stdlib=libc++
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/3.9.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72dde/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_72dde.dir/build.make CMakeFiles/cmTC_72dde.dir/build
+Building C object CMakeFiles/cmTC_72dde.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_72dde.dir/testCCompiler.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_72dde
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72dde.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72dde.dir/testCCompiler.c.o  -o cmTC_72dde 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5fc5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5fc5.dir/build.make CMakeFiles/cmTC_e5fc5.dir/build
+Building C object CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e5fc5
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5fc5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o  -o cmTC_e5fc5 
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_e5fc5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e5fc5/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5fc5.dir/build.make CMakeFiles/cmTC_e5fc5.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e5fc5]
+  ignore line: [/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5fc5.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o  -o cmTC_e5fc5 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_e5fc5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e5fc5] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_e5fc5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac15e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac15e.dir/build.make CMakeFiles/cmTC_ac15e.dir/build
+Building C object CMakeFiles/cmTC_ac15e.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ac15e.dir/feature_tests.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ac15e
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac15e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac15e.dir/feature_tests.c.o  -o cmTC_ac15e 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02550/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_02550.dir/build.make CMakeFiles/cmTC_02550.dir/build
+Building C object CMakeFiles/cmTC_02550.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_02550.dir/feature_tests.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_02550
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02550.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_02550.dir/feature_tests.c.o  -o cmTC_02550 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0b08/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a0b08.dir/build.make CMakeFiles/cmTC_a0b08.dir/build
+Building C object CMakeFiles/cmTC_a0b08.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a0b08.dir/feature_tests.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a0b08
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b08.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0b08.dir/feature_tests.c.o  -o cmTC_a0b08 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b90f1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b90f1.dir/build.make CMakeFiles/cmTC_b90f1.dir/build
+Building CXX object CMakeFiles/cmTC_b90f1.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -o CMakeFiles/cmTC_b90f1.dir/testCXXCompiler.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b90f1
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b90f1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b90f1.dir/testCXXCompiler.cxx.o  -o cmTC_b90f1 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ff11/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ff11.dir/build.make CMakeFiles/cmTC_3ff11.dir/build
+Building CXX object CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -o CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3ff11
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ff11.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3ff11 
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_3ff11 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3ff11/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ff11.dir/build.make CMakeFiles/cmTC_3ff11.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -o CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3ff11]
+  ignore line: [/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ff11.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3ff11 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_3ff11 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3ff11] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3ff11.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_525e0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_525e0.dir/build.make CMakeFiles/cmTC_525e0.dir/build
+Building CXX object CMakeFiles/cmTC_525e0.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -std=c++1z -o CMakeFiles/cmTC_525e0.dir/feature_tests.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_525e0
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_525e0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_525e0.dir/feature_tests.cxx.o  -o cmTC_525e0 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62fd3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62fd3.dir/build.make CMakeFiles/cmTC_62fd3.dir/build
+Building CXX object CMakeFiles/cmTC_62fd3.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -std=c++14 -o CMakeFiles/cmTC_62fd3.dir/feature_tests.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62fd3
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62fd3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62fd3.dir/feature_tests.cxx.o  -o cmTC_62fd3 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90497/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90497.dir/build.make CMakeFiles/cmTC_90497.dir/build
+Building CXX object CMakeFiles/cmTC_90497.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -std=c++11 -o CMakeFiles/cmTC_90497.dir/feature_tests.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_90497
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90497.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90497.dir/feature_tests.cxx.o  -o cmTC_90497 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e692/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6e692.dir/build.make CMakeFiles/cmTC_6e692.dir/build
+Building CXX object CMakeFiles/cmTC_6e692.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++    -std=c++98 -o CMakeFiles/cmTC_6e692.dir/feature_tests.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6e692
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e692.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6e692.dir/feature_tests.cxx.o  -o cmTC_6e692 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94bc0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_94bc0.dir/build.make CMakeFiles/cmTC_94bc0.dir/build
+Building C object CMakeFiles/cmTC_94bc0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_94bc0.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_94bc0
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94bc0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_94bc0.dir/CheckIncludeFile.c.o  -o cmTC_94bc0 
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0532e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0532e.dir/build.make CMakeFiles/cmTC_0532e.dir/build
+Building C object CMakeFiles/cmTC_0532e.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_0532e.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0532e
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0532e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0532e.dir/CheckIncludeFile.c.o  -o cmTC_0532e 
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bc12/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0bc12.dir/build.make CMakeFiles/cmTC_0bc12.dir/build
+Building C object CMakeFiles/cmTC_0bc12.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_0bc12.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0bc12
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc12.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0bc12.dir/CheckIncludeFile.c.o  -o cmTC_0bc12 
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_053eb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_053eb.dir/build.make CMakeFiles/cmTC_053eb.dir/build
+Building C object CMakeFiles/cmTC_053eb.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_053eb.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_053eb
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_053eb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_053eb.dir/CheckIncludeFile.c.o  -o cmTC_053eb 
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29368/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_29368.dir/build.make CMakeFiles/cmTC_29368.dir/build
+Building C object CMakeFiles/cmTC_29368.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_29368.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29368
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29368.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_29368.dir/CheckIncludeFile.c.o  -o cmTC_29368 
+
+
+Determining if the include file malloc/malloc.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24482/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_24482.dir/build.make CMakeFiles/cmTC_24482.dir/build
+Building C object CMakeFiles/cmTC_24482.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_24482.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_24482
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24482.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_24482.dir/CheckIncludeFile.c.o  -o cmTC_24482 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6ce3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d6ce3.dir/build.make CMakeFiles/cmTC_d6ce3.dir/build
+Building C object CMakeFiles/cmTC_d6ce3.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_d6ce3.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6ce3
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6ce3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d6ce3.dir/CheckIncludeFile.c.o  -o cmTC_d6ce3 
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22594/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_22594.dir/build.make CMakeFiles/cmTC_22594.dir/build
+Building C object CMakeFiles/cmTC_22594.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_22594.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_22594
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22594.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22594.dir/CheckIncludeFile.c.o  -o cmTC_22594 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a876a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a876a.dir/build.make CMakeFiles/cmTC_a876a.dir/build
+Building C object CMakeFiles/cmTC_a876a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_a876a.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a876a
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a876a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a876a.dir/CheckIncludeFile.c.o  -o cmTC_a876a 
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_496ac/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_496ac.dir/build.make CMakeFiles/cmTC_496ac.dir/build
+Building C object CMakeFiles/cmTC_496ac.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_496ac.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_496ac
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_496ac.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_496ac.dir/CheckIncludeFile.c.o  -o cmTC_496ac 
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_257e8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_257e8.dir/build.make CMakeFiles/cmTC_257e8.dir/build
+Building C object CMakeFiles/cmTC_257e8.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_257e8.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_257e8
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_257e8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_257e8.dir/CheckIncludeFile.c.o  -o cmTC_257e8 
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d62f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d62f7.dir/build.make CMakeFiles/cmTC_d62f7.dir/build
+Building C object CMakeFiles/cmTC_d62f7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_d62f7.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d62f7
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d62f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d62f7.dir/CheckIncludeFile.c.o  -o cmTC_d62f7 
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c25af/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c25af.dir/build.make CMakeFiles/cmTC_c25af.dir/build
+Building C object CMakeFiles/cmTC_c25af.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_c25af.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c25af
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c25af.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c25af.dir/CheckIncludeFile.c.o  -o cmTC_c25af 
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31ea7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_31ea7.dir/build.make CMakeFiles/cmTC_31ea7.dir/build
+Building C object CMakeFiles/cmTC_31ea7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_31ea7.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_31ea7
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31ea7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31ea7.dir/CheckIncludeFile.c.o  -o cmTC_31ea7 
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9428/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b9428.dir/build.make CMakeFiles/cmTC_b9428.dir/build
+Building C object CMakeFiles/cmTC_b9428.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_b9428.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b9428
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9428.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b9428.dir/CheckIncludeFile.c.o  -o cmTC_b9428 
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5092/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d5092.dir/build.make CMakeFiles/cmTC_d5092.dir/build
+Building C object CMakeFiles/cmTC_d5092.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_d5092.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d5092
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5092.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d5092.dir/CheckIncludeFile.c.o  -o cmTC_d5092 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2b73/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f2b73.dir/build.make CMakeFiles/cmTC_f2b73.dir/build
+Building C object CMakeFiles/cmTC_f2b73.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_f2b73.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f2b73
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2b73.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f2b73.dir/CheckIncludeFile.c.o  -o cmTC_f2b73 
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf270/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cf270.dir/build.make CMakeFiles/cmTC_cf270.dir/build
+Building C object CMakeFiles/cmTC_cf270.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_cf270.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cf270
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf270.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cf270.dir/CheckIncludeFile.c.o  -o cmTC_cf270 
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33c21/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33c21.dir/build.make CMakeFiles/cmTC_33c21.dir/build
+Building C object CMakeFiles/cmTC_33c21.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_33c21.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_33c21
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c21.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_33c21.dir/CheckIncludeFile.c.o  -o cmTC_33c21 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ad99/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8ad99.dir/build.make CMakeFiles/cmTC_8ad99.dir/build
+Building C object CMakeFiles/cmTC_8ad99.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_8ad99.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8ad99
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ad99.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8ad99.dir/CheckIncludeFile.c.o  -o cmTC_8ad99 
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc56e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc56e.dir/build.make CMakeFiles/cmTC_cc56e.dir/build
+Building C object CMakeFiles/cmTC_cc56e.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_cc56e.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cc56e
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc56e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc56e.dir/CheckIncludeFile.c.o  -o cmTC_cc56e 
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ed0e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7ed0e.dir/build.make CMakeFiles/cmTC_7ed0e.dir/build
+Building C object CMakeFiles/cmTC_7ed0e.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_7ed0e.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ed0e
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ed0e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ed0e.dir/CheckIncludeFile.c.o  -o cmTC_7ed0e 
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fb2c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5fb2c.dir/build.make CMakeFiles/cmTC_5fb2c.dir/build
+Building C object CMakeFiles/cmTC_5fb2c.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_5fb2c.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5fb2c
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fb2c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5fb2c.dir/CheckSymbolExists.c.o  -o cmTC_5fb2c -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c0b8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2c0b8.dir/build.make CMakeFiles/cmTC_2c0b8.dir/build
+Building C object CMakeFiles/cmTC_2c0b8.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_2c0b8.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2c0b8
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c0b8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2c0b8.dir/CheckSymbolExists.c.o  -o cmTC_2c0b8 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file mach/mach.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48efd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48efd.dir/build.make CMakeFiles/cmTC_48efd.dir/build
+Building C object CMakeFiles/cmTC_48efd.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_48efd.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48efd
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48efd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48efd.dir/CheckIncludeFile.c.o  -o cmTC_48efd 
+
+
+Determining if the include file histedit.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d87c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5d87c.dir/build.make CMakeFiles/cmTC_5d87c.dir/build
+Building C object CMakeFiles/cmTC_5d87c.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_5d87c.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d87c
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d87c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5d87c.dir/CheckIncludeFile.c.o  -o cmTC_5d87c 
+
+
+Performing C SOURCE FILE Test HAVE_CRASHREPORTER_INFO succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_049a1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_049a1.dir/build.make CMakeFiles/cmTC_049a1.dir/build
+Building C object CMakeFiles/cmTC_049a1.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_CRASHREPORTER_INFO   -o CMakeFiles/cmTC_049a1.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_049a1
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_049a1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DHAVE_CRASHREPORTER_INFO -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_049a1.dir/src.c.o  -o cmTC_049a1 -lm 
+
+Source file was:
+
+     static const char *__crashreporter_info__ = 0;
+     asm(".desc ___crashreporter_info__, 0x10");
+     int main() { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f69a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6f69a.dir/build.make CMakeFiles/cmTC_6f69a.dir/build
+Building C object CMakeFiles/cmTC_6f69a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6f69a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f69a
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f69a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6f69a.dir/CheckFunctionExists.c.o  -o cmTC_6f69a -lpthread -lm 
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a3c6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0a3c6.dir/build.make CMakeFiles/cmTC_0a3c6.dir/build
+Building C object CMakeFiles/cmTC_0a3c6.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTC_0a3c6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a3c6
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a3c6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a3c6.dir/CheckFunctionExists.c.o  -o cmTC_0a3c6 -lpthread -lm 
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_942ac/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_942ac.dir/build.make CMakeFiles/cmTC_942ac.dir/build
+Building C object CMakeFiles/cmTC_942ac.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTC_942ac.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_942ac
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942ac.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_942ac.dir/CheckFunctionExists.c.o  -o cmTC_942ac -lpthread -lm 
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4092/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4092.dir/build.make CMakeFiles/cmTC_c4092.dir/build
+Building C object CMakeFiles/cmTC_c4092.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTC_c4092.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c4092
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4092.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4092.dir/CheckFunctionExists.c.o  -o cmTC_c4092 -lpthread -lm 
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8428a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8428a.dir/build.make CMakeFiles/cmTC_8428a.dir/build
+Building C object CMakeFiles/cmTC_8428a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_8428a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8428a
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8428a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8428a.dir/CheckFunctionExists.c.o  -o cmTC_8428a -ldl -lm 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bf6a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7bf6a.dir/build.make CMakeFiles/cmTC_7bf6a.dir/build
+Building C object CMakeFiles/cmTC_7bf6a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_7bf6a.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7bf6a
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bf6a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7bf6a.dir/CheckIncludeFile.c.o  -o cmTC_7bf6a 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6bdef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6bdef.dir/build.make CMakeFiles/cmTC_6bdef.dir/build
+Building C object CMakeFiles/cmTC_6bdef.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_6bdef.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6bdef
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bdef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6bdef.dir/CheckSymbolExists.c.o  -o cmTC_6bdef -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46663/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_46663.dir/build.make CMakeFiles/cmTC_46663.dir/build
+Building C object CMakeFiles/cmTC_46663.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTC_46663.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46663
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46663.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46663.dir/CheckFunctionExists.c.o  -o cmTC_46663 -lz -lm 
+
+
+Determining if the function el_init exists in the edit passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10475/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10475.dir/build.make CMakeFiles/cmTC_10475.dir/build
+Building C object CMakeFiles/cmTC_10475.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=el_init   -o CMakeFiles/cmTC_10475.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10475
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10475.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=el_init -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10475.dir/CheckFunctionExists.c.o  -o cmTC_10475 -ledit -lm 
+
+
+Determining if the function setupterm exists in the curses passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cca7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2cca7.dir/build.make CMakeFiles/cmTC_2cca7.dir/build
+Building C object CMakeFiles/cmTC_2cca7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_2cca7.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2cca7
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cca7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2cca7.dir/CheckFunctionExists.c.o  -o cmTC_2cca7 -lcurses -lm 
+
+
+Determining if the function xar_open exists in the xar passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3f6f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3f6f.dir/build.make CMakeFiles/cmTC_c3f6f.dir/build
+Building C object CMakeFiles/cmTC_c3f6f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xar_open   -o CMakeFiles/cmTC_c3f6f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3f6f
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f6f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=xar_open -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3f6f.dir/CheckFunctionExists.c.o  -o cmTC_c3f6f -lxar -lm 
+
+
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ba61/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ba61.dir/build.make CMakeFiles/cmTC_2ba61.dir/build
+Building C object CMakeFiles/cmTC_2ba61.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_2ba61.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ba61
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ba61.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ba61.dir/CheckSymbolExists.c.o  -o cmTC_2ba61 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02aca/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_02aca.dir/build.make CMakeFiles/cmTC_02aca.dir/build
+Building C object CMakeFiles/cmTC_02aca.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_02aca.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_02aca
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02aca.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_02aca.dir/CheckSymbolExists.c.o  -o cmTC_02aca -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fd9c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3fd9c.dir/build.make CMakeFiles/cmTC_3fd9c.dir/build
+Building C object CMakeFiles/cmTC_3fd9c.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror=unguarded-availability-new -o CMakeFiles/cmTC_3fd9c.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3fd9c
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fd9c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3fd9c.dir/src.c.o  -o cmTC_3fd9c -lm 
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfe9f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dfe9f.dir/build.make CMakeFiles/cmTC_dfe9f.dir/build
+Building C object CMakeFiles/cmTC_dfe9f.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_dfe9f.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dfe9f
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe9f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dfe9f.dir/CheckSymbolExists.c.o  -o cmTC_dfe9f -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbdfc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dbdfc.dir/build.make CMakeFiles/cmTC_dbdfc.dir/build
+Building C object CMakeFiles/cmTC_dbdfc.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_dbdfc.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dbdfc
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbdfc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dbdfc.dir/CheckSymbolExists.c.o  -o cmTC_dbdfc -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a23d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2a23d.dir/build.make CMakeFiles/cmTC_2a23d.dir/build
+Building C object CMakeFiles/cmTC_2a23d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_2a23d.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2a23d
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a23d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a23d.dir/CheckSymbolExists.c.o  -o cmTC_2a23d -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7907d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7907d.dir/build.make CMakeFiles/cmTC_7907d.dir/build
+Building C object CMakeFiles/cmTC_7907d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_7907d.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7907d
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7907d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7907d.dir/CheckSymbolExists.c.o  -o cmTC_7907d -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f8b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2f8b7.dir/build.make CMakeFiles/cmTC_2f8b7.dir/build
+Building C object CMakeFiles/cmTC_2f8b7.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_2f8b7.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2f8b7
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f8b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2f8b7.dir/CheckSymbolExists.c.o  -o cmTC_2f8b7 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07b17/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_07b17.dir/build.make CMakeFiles/cmTC_07b17.dir/build
+Building C object CMakeFiles/cmTC_07b17.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_07b17.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07b17
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07b17.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_07b17.dir/CheckSymbolExists.c.o  -o cmTC_07b17 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de67c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_de67c.dir/build.make CMakeFiles/cmTC_de67c.dir/build
+Building C object CMakeFiles/cmTC_de67c.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_de67c.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_de67c
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de67c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_de67c.dir/CheckSymbolExists.c.o  -o cmTC_de67c -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d18df/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d18df.dir/build.make CMakeFiles/cmTC_d18df.dir/build
+Building C object CMakeFiles/cmTC_d18df.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_d18df.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d18df
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d18df.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d18df.dir/CheckSymbolExists.c.o  -o cmTC_d18df -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f093b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f093b.dir/build.make CMakeFiles/cmTC_f093b.dir/build
+Building C object CMakeFiles/cmTC_f093b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_f093b.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f093b
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f093b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f093b.dir/CheckSymbolExists.c.o  -o cmTC_f093b -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c32f8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c32f8.dir/build.make CMakeFiles/cmTC_c32f8.dir/build
+Building C object CMakeFiles/cmTC_c32f8.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_c32f8.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c32f8
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c32f8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c32f8.dir/CheckSymbolExists.c.o  -o cmTC_c32f8 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54661/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_54661.dir/build.make CMakeFiles/cmTC_54661.dir/build
+Building C object CMakeFiles/cmTC_54661.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_54661.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_54661
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54661.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_54661.dir/CheckSymbolExists.c.o  -o cmTC_54661 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_805f3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_805f3.dir/build.make CMakeFiles/cmTC_805f3.dir/build
+Building C object CMakeFiles/cmTC_805f3.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_805f3.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_805f3
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_805f3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_805f3.dir/CheckSymbolExists.c.o  -o cmTC_805f3 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4dab6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4dab6.dir/build.make CMakeFiles/cmTC_4dab6.dir/build
+Building C object CMakeFiles/cmTC_4dab6.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_4dab6.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4dab6
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dab6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4dab6.dir/CheckSymbolExists.c.o  -o cmTC_4dab6 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52d3d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_52d3d.dir/build.make CMakeFiles/cmTC_52d3d.dir/build
+Building C object CMakeFiles/cmTC_52d3d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_52d3d.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_52d3d
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d3d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52d3d.dir/CheckSymbolExists.c.o  -o cmTC_52d3d -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7594/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e7594.dir/build.make CMakeFiles/cmTC_e7594.dir/build
+Building C object CMakeFiles/cmTC_e7594.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_e7594.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e7594
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7594.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e7594.dir/CheckSymbolExists.c.o  -o cmTC_e7594 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_543e0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_543e0.dir/build.make CMakeFiles/cmTC_543e0.dir/build
+Building C object CMakeFiles/cmTC_543e0.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_543e0.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_543e0
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_543e0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_543e0.dir/CheckSymbolExists.c.o  -o cmTC_543e0 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b94b3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b94b3.dir/build.make CMakeFiles/cmTC_b94b3.dir/build
+Building C object CMakeFiles/cmTC_b94b3.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_b94b3.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b94b3
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b94b3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b94b3.dir/CheckSymbolExists.c.o  -o cmTC_b94b3 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03bda/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_03bda.dir/build.make CMakeFiles/cmTC_03bda.dir/build
+Building C object CMakeFiles/cmTC_03bda.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_03bda.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_03bda
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03bda.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_03bda.dir/CheckSymbolExists.c.o  -o cmTC_03bda -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realpath exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d6c7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d6c7.dir/build.make CMakeFiles/cmTC_0d6c7.dir/build
+Building C object CMakeFiles/cmTC_0d6c7.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_0d6c7.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0d6c7
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d6c7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d6c7.dir/CheckSymbolExists.c.o  -o cmTC_0d6c7 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e382/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e382.dir/build.make CMakeFiles/cmTC_9e382.dir/build
+Building C object CMakeFiles/cmTC_9e382.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_9e382.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+  return ((int*)(&sbrk))[argc];
+                  ^
+/usr/include/unistd.h:585:1: note: 'sbrk' has been explicitly marked deprecated here
+__deprecated __WATCHOS_PROHIBITED __TVOS_PROHIBITED
+^
+/usr/include/sys/cdefs.h:176:37: note: expanded from macro '__deprecated'
+#define __deprecated    __attribute__((deprecated))
+                                       ^
+1 warning generated.
+Linking C executable cmTC_9e382
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e382.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e382.dir/CheckSymbolExists.c.o  -o cmTC_9e382 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5624b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5624b.dir/build.make CMakeFiles/cmTC_5624b.dir/build
+Building C object CMakeFiles/cmTC_5624b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_5624b.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5624b
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5624b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5624b.dir/CheckSymbolExists.c.o  -o cmTC_5624b -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbc05/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cbc05.dir/build.make CMakeFiles/cmTC_cbc05.dir/build
+Building C object CMakeFiles/cmTC_cbc05.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_cbc05.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cbc05
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbc05.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cbc05.dir/CheckSymbolExists.c.o  -o cmTC_cbc05 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44c54/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44c54.dir/build.make CMakeFiles/cmTC_44c54.dir/build
+Building C object CMakeFiles/cmTC_44c54.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_44c54.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44c54
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44c54.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44c54.dir/CheckSymbolExists.c.o  -o cmTC_44c54 -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edcae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_edcae.dir/build.make CMakeFiles/cmTC_edcae.dir/build
+Building C object CMakeFiles/cmTC_edcae.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_edcae.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_edcae
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edcae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_edcae.dir/CheckSymbolExists.c.o  -o cmTC_edcae -lm 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76413/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_76413.dir/build.make CMakeFiles/cmTC_76413.dir/build
+Building C object CMakeFiles/cmTC_76413.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_76413.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_76413
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76413.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76413.dir/CheckSymbolExists.c.o  -o cmTC_76413 -lm -ldl 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_660f9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_660f9.dir/build.make CMakeFiles/cmTC_660f9.dir/build
+Building C object CMakeFiles/cmTC_660f9.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_660f9.dir/CheckSymbolExists.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_660f9
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_660f9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_660f9.dir/CheckSymbolExists.c.o  -o cmTC_660f9 -lm -ldl 
+
+File /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_getname_np exists in the pthread passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28a74/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_28a74.dir/build.make CMakeFiles/cmTC_28a74.dir/build
+Building C object CMakeFiles/cmTC_28a74.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getname_np  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_28a74.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28a74
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a74.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getname_np  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_28a74.dir/CheckFunctionExists.c.o  -o cmTC_28a74 -lpthread -lm 
+
+
+Determining if the function pthread_setname_np exists in the pthread passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97602/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_97602.dir/build.make CMakeFiles/cmTC_97602.dir/build
+Building C object CMakeFiles/cmTC_97602.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_97602.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97602
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97602.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_97602.dir/CheckFunctionExists.c.o  -o cmTC_97602 -lpthread -lm 
+
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02462/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_02462.dir/build.make CMakeFiles/cmTC_02462.dir/build
+Building CXX object CMakeFiles/cmTC_02462.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DHAVE_INT64_T  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_02462.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_02462
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02462.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DHAVE_INT64_T  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_02462.dir/src.cxx.o  -o cmTC_02462 -lm 
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1cbc2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1cbc2.dir/build.make CMakeFiles/cmTC_1cbc2.dir/build
+Building CXX object CMakeFiles/cmTC_1cbc2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DHAVE_UINT64_T  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_1cbc2.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1cbc2
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cbc2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DHAVE_UINT64_T  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1cbc2.dir/src.cxx.o  -o cmTC_1cbc2 -lm 
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ea55/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ea55.dir/build.make CMakeFiles/cmTC_2ea55.dir/build
+Building CXX object CMakeFiles/cmTC_2ea55.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DHAVE_U_INT64_T  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_2ea55.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ea55
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea55.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DHAVE_U_INT64_T  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ea55.dir/src.cxx.o  -o cmTC_2ea55 -lm 
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e153/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1e153.dir/build.make CMakeFiles/cmTC_1e153.dir/build
+Building CXX object CMakeFiles/cmTC_1e153.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -Werror=unguarded-availability-new -std=c++11   -o CMakeFiles/cmTC_1e153.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e153
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e153.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -Werror=unguarded-availability-new -std=c++11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e153.dir/src.cxx.o  -o cmTC_1e153 -lm 
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28bc3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_28bc3.dir/build.make CMakeFiles/cmTC_28bc3.dir/build
+Building CXX object CMakeFiles/cmTC_28bc3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_28bc3.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28bc3
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28bc3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_28bc3.dir/src.cxx.o  -o cmTC_28bc3 -lm 
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9713/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d9713.dir/build.make CMakeFiles/cmTC_d9713.dir/build
+Building CXX object CMakeFiles/cmTC_d9713.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DLLVM_HAS_ATOMICS  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_d9713.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d9713
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9713.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DLLVM_HAS_ATOMICS  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d9713.dir/src.cxx.o  -o cmTC_d9713 -lm 
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26f94/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_26f94.dir/build.make CMakeFiles/cmTC_26f94.dir/build
+Building CXX object CMakeFiles/cmTC_26f94.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -Werror=unguarded-availability-new   -Wvariadic-macros -o CMakeFiles/cmTC_26f94.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26f94
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26f94.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_26f94.dir/src.cxx.o  -o cmTC_26f94 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b5c1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b5c1.dir/build.make CMakeFiles/cmTC_7b5c1.dir/build
+Building CXX object CMakeFiles/cmTC_7b5c1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -Werror=unguarded-availability-new   -Wgnu-zero-variadic-macro-arguments -o CMakeFiles/cmTC_7b5c1.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7b5c1
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b5c1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b5c1.dir/src.cxx.o  -o cmTC_7b5c1 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39896/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_39896.dir/build.make CMakeFiles/cmTC_39896.dir/build
+Building C object CMakeFiles/cmTC_39896.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DC_SUPPORTS_FPIC  -Werror=unguarded-availability-new   -Werror -fPIC -o CMakeFiles/cmTC_39896.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_39896
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39896.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DC_SUPPORTS_FPIC  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_39896.dir/src.c.o  -o cmTC_39896 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5fe1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f5fe1.dir/build.make CMakeFiles/cmTC_f5fe1.dir/build
+Building CXX object CMakeFiles/cmTC_f5fe1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -DCXX_SUPPORTS_FPIC  -Werror=unguarded-availability-new   -Werror -fPIC -o CMakeFiles/cmTC_f5fe1.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5fe1
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5fe1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -DCXX_SUPPORTS_FPIC  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5fe1.dir/src.cxx.o  -o cmTC_f5fe1 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3240/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a3240.dir/build.make CMakeFiles/cmTC_a3240.dir/build
+Building CXX object CMakeFiles/cmTC_a3240.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -Werror=unguarded-availability-new   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a3240.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a3240
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3240.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a3240.dir/src.cxx.o  -o cmTC_a3240 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50b46/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_50b46.dir/build.make CMakeFiles/cmTC_50b46.dir/build
+Building C object CMakeFiles/cmTC_50b46.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new   -Werror -Werror=date-time -o CMakeFiles/cmTC_50b46.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50b46
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b46.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_50b46.dir/src.c.o  -o cmTC_50b46 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6746c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6746c.dir/build.make CMakeFiles/cmTC_6746c.dir/build
+Building CXX object CMakeFiles/cmTC_6746c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new   -Werror -Werror=date-time -o CMakeFiles/cmTC_6746c.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6746c
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6746c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6746c.dir/src.cxx.o  -o cmTC_6746c -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06833/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_06833.dir/build.make CMakeFiles/cmTC_06833.dir/build
+Building CXX object CMakeFiles/cmTC_06833.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -Werror=unguarded-availability-new   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_06833.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06833
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06833.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06833.dir/src.cxx.o  -o cmTC_06833 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b489/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b489.dir/build.make CMakeFiles/cmTC_4b489.dir/build
+Building CXX object CMakeFiles/cmTC_4b489.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11  -Werror=unguarded-availability-new   -std=c++11 -o CMakeFiles/cmTC_4b489.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b489
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b489.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4b489.dir/src.cxx.o  -o cmTC_4b489 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06516/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_06516.dir/build.make CMakeFiles/cmTC_06516.dir/build
+Building CXX object CMakeFiles/cmTC_06516.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Werror=unguarded-availability-new   -Wmissing-field-initializers -o CMakeFiles/cmTC_06516.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06516
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06516.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06516.dir/src.cxx.o  -o cmTC_06516 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81818/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81818.dir/build.make CMakeFiles/cmTC_81818.dir/build
+Building C object CMakeFiles/cmTC_81818.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_81818.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81818
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81818.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81818.dir/src.c.o  -o cmTC_81818 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24a49/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_24a49.dir/build.make CMakeFiles/cmTC_24a49.dir/build
+Building CXX object CMakeFiles/cmTC_24a49.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_24a49.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_24a49
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a49.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_24a49.dir/src.cxx.o  -o cmTC_24a49 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95aa2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_95aa2.dir/build.make CMakeFiles/cmTC_95aa2.dir/build
+Building CXX object CMakeFiles/cmTC_95aa2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -Werror=unguarded-availability-new -std=c++11 -Werror=non-virtual-dtor   -o CMakeFiles/cmTC_95aa2.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_95aa2
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95aa2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -Werror=unguarded-availability-new -std=c++11 -Werror=non-virtual-dtor -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95aa2.dir/src.cxx.o  -o cmTC_95aa2 -lm 
+
+Source file was:
+class base {public: virtual void anchor();protected: ~base();};
+                               class derived final : public base { public: ~derived();};
+                               int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e45ff/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e45ff.dir/build.make CMakeFiles/cmTC_e45ff.dir/build
+Building C object CMakeFiles/cmTC_e45ff.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_e45ff.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e45ff
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e45ff.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e45ff.dir/src.c.o  -o cmTC_e45ff -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66882/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_66882.dir/build.make CMakeFiles/cmTC_66882.dir/build
+Building CXX object CMakeFiles/cmTC_66882.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_66882.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_66882
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66882.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_66882.dir/src.cxx.o  -o cmTC_66882 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f9cb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f9cb.dir/build.make CMakeFiles/cmTC_7f9cb.dir/build
+Building C object CMakeFiles/cmTC_7f9cb.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror=unguarded-availability-new -Werror -Wcomment   -o CMakeFiles/cmTC_7f9cb.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f9cb
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f9cb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror=unguarded-availability-new -Werror -Wcomment -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f9cb.dir/src.c.o  -o cmTC_7f9cb -lm 
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97e6c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_97e6c.dir/build.make CMakeFiles/cmTC_97e6c.dir/build
+Building C object CMakeFiles/cmTC_97e6c.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new   -Werror -Wstring-conversion -o CMakeFiles/cmTC_97e6c.dir/src.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_97e6c
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e6c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_97e6c.dir/src.c.o  -o cmTC_97e6c -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16918/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_16918.dir/build.make CMakeFiles/cmTC_16918.dir/build
+Building CXX object CMakeFiles/cmTC_16918.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new   -Werror -Wstring-conversion -o CMakeFiles/cmTC_16918.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16918
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16918.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_16918.dir/src.cxx.o  -o cmTC_16918 -lm 
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c434/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5c434.dir/build.make CMakeFiles/cmTC_5c434.dir/build
+Building C object CMakeFiles/cmTC_5c434.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_5c434.dir/CheckIncludeFile.c.o   -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5c434
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c434.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5c434.dir/CheckIncludeFile.c.o  -o cmTC_5c434 
+
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG succeeded with the following output:
+Change Dir: /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3eb64/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3eb64.dir/build.make CMakeFiles/cmTC_3eb64.dir/build
+Building CXX object CMakeFiles/cmTC_3eb64.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -fno-common -Woverloaded-virtual -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG  -Werror=unguarded-availability-new   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_3eb64.dir/src.cxx.o -c /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/build_incoming_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3eb64
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb64.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -stdlib=libc++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -fno-common -Woverloaded-virtual -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3eb64.dir/src.cxx.o  -o cmTC_3eb64 -lm 
+
+Source file was:
+int main() { return 0; }

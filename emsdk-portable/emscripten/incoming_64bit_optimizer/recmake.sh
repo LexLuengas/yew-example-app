@@ -1,0 +1,1 @@
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/Users/Alexis/anaconda3/bin/python /Users/Alexis/Documents/dev/bthesis/emsdk-portable/emscripten/incoming/tools/optimizer
