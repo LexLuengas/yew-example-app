@@ -1,19 +1,14 @@
 use identifiers::tweet::TweetUuid;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct TweetResponse {
+pub struct TwitterResponse {
     pub uuid: TweetUuid,
     pub user_name: String,
     pub text: String,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct TestResponse {
-    pub message: String,
-}
-
-#[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct FullTweetResponse {
+pub struct FullTwitterResponse {
     pub uuid: TweetUuid,
     pub user_name: String,
     pub text: String,

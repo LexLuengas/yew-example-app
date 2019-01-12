@@ -1,5 +1,5 @@
 use identifiers::tweet::TweetUuid;
-use wire::tweet::TweetResponse;
+use wire::tweet::TwitterResponse;
 
 #[derive(Default, Clone, Debug, PartialEq)]
 pub struct TweetData {
@@ -8,8 +8,8 @@ pub struct TweetData {
     pub text: String,
 }
 
-impl From<TweetResponse> for TweetData {
-    fn from(response: TweetResponse) -> Self {
+impl From<TwitterResponse> for TweetData {
+    fn from(response: TwitterResponse) -> Self {
         TweetData {
             uuid: response.uuid,
             user_name: response.user_name,

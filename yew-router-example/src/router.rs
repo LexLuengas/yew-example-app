@@ -2,18 +2,17 @@
 
 use crate::routing_service::RouterService;
 
+use std::{
+    collections::HashSet,
+    fmt::Debug
+};
+use stdweb::{
+    unstable::TryFrom,
+    JsSerialize,
+    Value
+};
+use serde::{Deserialize, Serialize};
 use yew::prelude::worker::*;
-
-use std::collections::HashSet;
-
-use stdweb::unstable::TryFrom;
-use stdweb::JsSerialize;
-use stdweb::Value;
-
-use serde::Deserialize;
-use serde::Serialize;
-
-use std::fmt::Debug;
 
 /// Route object, representing a string with the structure "/path_segments*?query#fragment"
 #[derive(Clone, Debug, Default, PartialEq, Serialize, Deserialize)]

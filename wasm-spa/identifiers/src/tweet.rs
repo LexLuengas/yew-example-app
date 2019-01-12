@@ -29,7 +29,7 @@ impl AsRef<Uuid> for TweetUuid {
     }
 }
 
-const PARAM_NAME: &str = "user_uuid";
+const PARAM_NAME: &str = "tweet_uuid";
 
 impl Display for TweetUuid {
     fn fmt(&self, f: &mut Formatter) -> FormatResult {

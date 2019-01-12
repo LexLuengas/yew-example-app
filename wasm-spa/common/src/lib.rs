@@ -15,9 +15,8 @@ extern crate log;
 
 extern crate wire;
 extern crate identifiers;
-
 extern crate yew_router;
 
-pub mod datatypes;
 pub mod fetch;
 pub mod user;
+pub mod datatypes;

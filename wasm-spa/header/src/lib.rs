@@ -1,6 +1,7 @@
 #[macro_use]
 extern crate yew;
 extern crate yew_router;
+extern crate stdweb;
 
 use yew::prelude::*;
 use yew_router::prelude::*;

@@ -1,14 +1,21 @@
 [workspace]
 members = [
     "app",
-    "root",
+    "common",
     "header",
     "header-input",
-    "tweets",
-    "common",
     "identifiers",
-    "wire",
+    "root",
+    "tweets",
     "util",
+    "wire",
 ]
-exclude = [
-]
+exclude = []
+
+[profile.dev]
+opt-level = 1
+debug = true
+
+[profile.release]
+# opt-level = 3
+debug = true

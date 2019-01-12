@@ -4,7 +4,9 @@ version = "0.1.0"
 authors = ["Alexis Luengas <al096@hdm-stuttgart.de>"]
 
 [dependencies]
+common = { path = "../common" }
 root = { path = "../root" }
+yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
+console_error_panic_hook = "0.1.5"
 log = "0.4"
 web_logger = "0.1"
-yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }

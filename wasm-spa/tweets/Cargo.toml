@@ -2,17 +2,16 @@
 name = "tweets"
 version = "0.1.0"
 authors = ["Alexis Luengas <alexis.luengas@gmail.com>"]
-edition = "2018"
 
 [dependencies]
-common = {path = "../common" }
-wire = {path = "../wire"}
-util = {path = "../util"}
-
-yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
-yew_router = { git = "https://github.com/hgzimmerman/YewRouter", rev = "08063508edd572273b3d4d62865c4260cea6c0cc" }
-
 serde = "1"
 serde_derive = "1"
 log = "0.4"
 failure = "0.1"
+
+yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
+yew_router = { git = "https://github.com/hgzimmerman/YewRouter" }
+
+common = {path = "../common" }
+wire = {path = "../wire"}
+util = {path = "../util"}

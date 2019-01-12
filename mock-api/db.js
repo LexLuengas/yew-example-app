@@ -33,8 +33,9 @@ app.get('/keyword/:keyword', function (req, res) {
 				"rate-limit-reset": response.headers["x-rate-limit-reset"],
 				"tweets": data.statuses.map(t => {
 					return {
-						uuid: t.id,
-						user_name: t.screen_name,
+						id: t.id,
+						user_name: t.user.screen_name,
+						user_id: t.user.id,
 						text: t.text
 					}
 				})

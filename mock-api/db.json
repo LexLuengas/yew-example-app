@@ -1,0 +1,1802 @@
+{
+    "keyword-webassembly": [{
+        "rate-limit-remaining": "176",
+        "rate-limit-reset": "1546921914",
+        "tweets": [
+            {
+                "id": 1082492122559844400,
+                "user_name": "socrabot_",
+                "user_id": 817448647499595800,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082491251906228200,
+                "user_name": "EmileMonestime",
+                "user_id": 17419307,
+                "text": "Build the future of the web with WebAssembly and more (Google I/O '18) https://t.co/bL8UVR4CeH via @YouTube"
+            },
+            {
+                "id": 1082483291398328300,
+                "user_name": "lucasoft_co_uk",
+                "user_id": 111457430,
+                "text": "RT @ibm2100 How we run KrakenD API gateway on #Javascript with #WebAssembly\n\nvia https://t.co/clFFbwxKBE\n\n#golang… https://t.co/eyj8Ygi4Ls"
+            },
+            {
+                "id": 1082479952560193500,
+                "user_name": "teppeis",
+                "user_id": 5371192,
+                "text": "お正月号だ / “2019-01-01のJS: WebdriverIO v5、Rollup 1.0、Rust + WebAssembly + WebWorker - https://t.co/soNerq3LcC” https://t.co/dnkJ3CP6Mx"
+            },
+            {
+                "id": 1082478052817412100,
+                "user_name": "maxalmonte14",
+                "user_id": 2997591655,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082477076165333000,
+                "user_name": "ag_dubs",
+                "user_id": 304067888,
+                "text": "RT @mostlysafe: @ag_dubs Now I'm reading \"#webassembly\" itself with the rhythm of \"Despacito.\""
+            },
+            {
+                "id": 1082476031703957500,
+                "user_name": "mostlysafe",
+                "user_id": 24918954,
+                "text": "@ag_dubs Now I'm reading \"#webassembly\" itself with the rhythm of \"Despacito.\""
+            },
+            {
+                "id": 1082474269760720900,
+                "user_name": "chuangyu0",
+                "user_id": 384959789,
+                "text": "Recommended read on @Medium: “Parc3l: Combining Three.js, Rust, and WebAssembly!” https://t.co/SdRseGtBqp"
+            },
+            {
+                "id": 1082466331046432800,
+                "user_name": "pkrawat1",
+                "user_id": 386719442,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082466162187718700,
+                "user_name": "Welt_schmerz_",
+                "user_id": 340181698,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082462299535876100,
+                "user_name": "Gillian_LiWIT",
+                "user_id": 17487668,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082459215443255300,
+                "user_name": "ashleyfer13",
+                "user_id": 2613417794,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082456142788419600,
+                "user_name": "StatisticsFTW",
+                "user_id": 559874604,
+                "text": "I'm co-developing Smithy (a #webassembly web dev framework in #rustlang) and a sample site, and making substantial… https://t.co/3eCd2kcRhI"
+            },
+            {
+                "id": 1082455831877161000,
+                "user_name": "RobertLJ",
+                "user_id": 18962066,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082453167097462800,
+                "user_name": "bennyharv3",
+                "user_id": 3086898833,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082452907272724500,
+                "user_name": "GregD_TXWA",
+                "user_id": 731641415046860800,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082451744011866100,
+                "user_name": "RobertBaldini",
+                "user_id": 331441617,
+                "text": "\"WebAssembly is a way to take code in any programming language and run it within a web browser\" https://t.co/HGkvfz6Fd0"
+            },
+            {
+                "id": 1082448377076363300,
+                "user_name": "sindarknave",
+                "user_id": 63699112,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082446269870719000,
+                "user_name": "fabricegangler",
+                "user_id": 58588121,
+                "text": "RT @alsacreations: Le membre StashOfCode a concocté deux didacticiels bien étoffés sur WebAssembly (API JavaScript, Mandelbrot en Wasm) htt…"
+            },
+            {
+                "id": 1082445299359146000,
+                "user_name": "bendhalpern",
+                "user_id": 161419043,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082443803737444400,
+                "user_name": "cwschmidt",
+                "user_id": 1510710092,
+                "text": "@Gerard_Gallant @captainsafia @Gerard_Gallant, thank you for the clarification. I think, my information is kinda ou… https://t.co/FkhNyATTNb"
+            },
+            {
+                "id": 1082439979438006300,
+                "user_name": "came1223pg",
+                "user_id": 218818356,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082437596779753500,
+                "user_name": "FernandoGMO",
+                "user_id": 2431379053,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082436664499281900,
+                "user_name": "AnthonyJDodd",
+                "user_id": 598562766,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082433334280474600,
+                "user_name": "dangtu_work",
+                "user_id": 1016861793623277600,
+                "text": "@MozDevNet WebAssembly"
+            },
+            {
+                "id": 1082432046289436700,
+                "user_name": "drkmatterdev",
+                "user_id": 18039247,
+                "text": "RT @jeremylikness: Writing Single Page Apps (SPA) with #WebAssembly using #CSharp and #dotnet: from #Angular to #Blazor with a reference he…"
+            },
+            {
+                "id": 1082426775936946200,
+                "user_name": "avaskoog",
+                "user_id": 2889235311,
+                "text": "RT @WasmWeekly: Doom 3 running in the browser using Emscripten / WebAssembly https://t.co/4FW1bsPWoA https://t.co/1HtX6OgJ2w"
+            },
+            {
+                "id": 1082425480832340000,
+                "user_name": "_nyxz",
+                "user_id": 223558914,
+                "text": "WebGL + Rust: Basic Water Tutorial - https://t.co/0vxW6uR4oo #rust #webgl #webassembly"
+            },
+            {
+                "id": 1082424644022480900,
+                "user_name": "matsuu_zatsu",
+                "user_id": 3257708875,
+                "text": "Rendering Water with WebGL, Rust and WebAssembly https://t.co/1S9jGA7mtF"
+            },
+            {
+                "id": 1082423657383682000,
+                "user_name": "Bilddalton",
+                "user_id": 4188189314,
+                "text": "RT @js_tut: Sorted by driving difficulty:\n\n  1. HTML 🎠\n  2. CSS 🚃\n  3. PHP 🚲\n  4. Python 🚴‍♂️🐍\n  5. JavaScript 🛵\n  6. Vue 🏍️\n  7. React 🚛…"
+            },
+            {
+                "id": 1082422034028621800,
+                "user_name": "codemilli",
+                "user_id": 988677451,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082419834657402900,
+                "user_name": "Gerard_Gallant",
+                "user_id": 163513789,
+                "text": "@cwschmidt @captainsafia Languages that need garbage collection can include their own but, like you said, it makes… https://t.co/iUNVb46Pzu"
+            },
+            {
+                "id": 1082415792786833400,
+                "user_name": "graybasstech",
+                "user_id": 516059043,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082415367794888700,
+                "user_name": "UnoPlatform",
+                "user_id": 2815337752,
+                "text": "@captainsafia If you have a chance, you should have a look at our WebAssembly support on https://t.co/ft6sCYkblk"
+            },
+            {
+                "id": 1082414601998716900,
+                "user_name": "dorayaki_kun",
+                "user_id": 96971067,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082412990773768200,
+                "user_name": "moejoeVR",
+                "user_id": 2627473372,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082408238853775400,
+                "user_name": "chikoski",
+                "user_id": 6254052,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082407147575554000,
+                "user_name": "stoneflyop1",
+                "user_id": 201298263,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082407020647592000,
+                "user_name": "elishnevsky",
+                "user_id": 2421525870,
+                "text": "@manekinekko @angular I'm expecting Angular to WebAssembly this year!"
+            },
+            {
+                "id": 1082406313554899000,
+                "user_name": "eielh",
+                "user_id": 30605924,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082406109745434600,
+                "user_name": "kayserzl",
+                "user_id": 1381923332,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082404182810873900,
+                "user_name": "nicolasgiethlen",
+                "user_id": 2233584636,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082397088330199000,
+                "user_name": "johan_moreau",
+                "user_id": 37778917,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082396387310858200,
+                "user_name": "takehironet",
+                "user_id": 119608399,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082394612113780700,
+                "user_name": "cwschmidt",
+                "user_id": 1510710092,
+                "text": "@captainsafia Maybe it applies particularily to LLVM, don't know ...\n\nSections:\n\"Is WebAssembly only for C/C++ prog… https://t.co/94wfweH9lo"
+            },
+            {
+                "id": 1082394326829690900,
+                "user_name": "peccul",
+                "user_id": 73350946,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082393837308444700,
+                "user_name": "israelsantiago",
+                "user_id": 16412864,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082393711244398600,
+                "user_name": "reddit_progr",
+                "user_id": 2944068880,
+                "text": "Rendering Water with WebGL, Rust and WebAssembly https://t.co/aBNNvGsLvR /post https://t.co/k6kIcDhhh8"
+            },
+            {
+                "id": 1082391667087294500,
+                "user_name": "nimazeighami",
+                "user_id": 218001984,
+                "text": "@JonVirtual @htcvive @mozilla @awscloud It’s locked to Amazon services and it isn’t easy to work with, and the ecos… https://t.co/AvQGXqyCc3"
+            },
+            {
+                "id": 1082390371949269000,
+                "user_name": "Roland_Krueger",
+                "user_id": 773069539,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082388221064081400,
+                "user_name": "cwschmidt",
+                "user_id": 1510710092,
+                "text": "@captainsafia ... and I found 2 typos 😉, hope you don't mind ...\n\"Warm\" instead of \"Wasm\" and \"WebAssmebly\" instead of \"WebAssembly\""
+            },
+            {
+                "id": 1082386523197198300,
+                "user_name": "jsfairy",
+                "user_id": 983535377674891300,
+                "text": "RT @skillsmatter: For more than 20 years #JavaScript has been the only 'native' language of the web. That's all changed with the release of…"
+            },
+            {
+                "id": 1082386387800748000,
+                "user_name": "AdamRMurray",
+                "user_id": 326217398,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082385159280910300,
+                "user_name": "skillsmatter",
+                "user_id": 16345873,
+                "text": "For more than 20 years #JavaScript has been the only 'native' language of the web. That's all changed with the rele… https://t.co/tjNAhZLnIJ"
+            },
+            {
+                "id": 1082381836993679400,
+                "user_name": "MikeDeRoy",
+                "user_id": 44930369,
+                "text": "@FesterCluck WebAssembly will save us all from this tyrannic oppression."
+            },
+            {
+                "id": 1082380910765490200,
+                "user_name": "snikhilesh",
+                "user_id": 68231293,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082380578996084700,
+                "user_name": "sescob27",
+                "user_id": 1619050604,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082378771267706900,
+                "user_name": "DodgerWA",
+                "user_id": 83936091,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082378728506908700,
+                "user_name": "CarloGilmar",
+                "user_id": 433116137,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082375265458761700,
+                "user_name": "choccyhobnob",
+                "user_id": 14257942,
+                "text": "@textfiles Maybe just host the files on a telnet bbs? Get a webassembly of putty running on the https://t.co/AKPcPmQghh domain as the UI?"
+            },
+            {
+                "id": 1082371884153557000,
+                "user_name": "AnkurPatel",
+                "user_id": 14101776,
+                "text": "https://t.co/yckgDOQ33S"
+            },
+            {
+                "id": 1082371876620513300,
+                "user_name": "viktmv",
+                "user_id": 1683005862,
+                "text": "@MozDevNet @rustlang and WebAssembly"
+            },
+            {
+                "id": 1082371049206042600,
+                "user_name": "proxisja",
+                "user_id": 179364142,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082370839767601200,
+                "user_name": "YoSymfony",
+                "user_id": 1106314022,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082369440103116800,
+                "user_name": "airercode500",
+                "user_id": 747851730,
+                "text": "I've been really into https://t.co/nrrizjm2Xd and one of my intentions for the new year is to read a full developer… https://t.co/DZA4WekJgT"
+            },
+            {
+                "id": 1082368334665076700,
+                "user_name": "JeffStudios",
+                "user_id": 535893560,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082367371363401700,
+                "user_name": "jscamp",
+                "user_id": 3156678513,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082367357689974800,
+                "user_name": "davidpich",
+                "user_id": 234860899,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082367020296032300,
+                "user_name": "ThePracticalDev",
+                "user_id": 2735246778,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082366600152461300,
+                "user_name": "__rkaneko",
+                "user_id": 375134088,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082366515817652200,
+                "user_name": "SDavey149",
+                "user_id": 216708657,
+                "text": "@captainsafia One of WASMs biggest selling points is page load times. See,https://t.co/nryImAXtfd - explains the di… https://t.co/yTEnn3vhWQ"
+            },
+            {
+                "id": 1082365316062163000,
+                "user_name": "RustTrending",
+                "user_id": 1050461772463796200,
+                "text": "chinedufn / webgl-water-tutorial: The source code for a tutorial on rendering water using WebGL + Rust + WebAssembl… https://t.co/7RfCNL8nCA"
+            },
+            {
+                "id": 1082362372952604700,
+                "user_name": "sleipni_r",
+                "user_id": 203112714,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082361834177523700,
+                "user_name": "otfrom",
+                "user_id": 15682551,
+                "text": "RT @monkchips: Note to @Cloudflare... given your webassembly plans for workers and need to evangelise a new model maybe get in line with fo…"
+            },
+            {
+                "id": 1082361163562799100,
+                "user_name": "orrisjd",
+                "user_id": 94038153,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082360975590899700,
+                "user_name": "ivandevp",
+                "user_id": 2157588368,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082358594908115000,
+                "user_name": "mllepsychosis",
+                "user_id": 2796432754,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082358333208739800,
+                "user_name": "monkchips",
+                "user_id": 61233,
+                "text": "Note to @Cloudflare... given your webassembly plans for workers and need to evangelise a new model maybe get in lin… https://t.co/ZvInYhOSZk"
+            },
+            {
+                "id": 1082358008527626200,
+                "user_name": "DavidGregory084",
+                "user_id": 1016277612,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082357062410080300,
+                "user_name": "goyox86",
+                "user_id": 15101903,
+                "text": "@satanas82 @rustlang Deberías echarle un ojo a shippear un juego en Rust en Unity a Webassembly. Básicamente correr… https://t.co/onkbKEWDO6"
+            },
+            {
+                "id": 1082355823030952000,
+                "user_name": "rippinrobr",
+                "user_id": 30904121,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082355246410547200,
+                "user_name": "lazlo_amagami",
+                "user_id": 815999429903683600,
+                "text": "https://t.co/pQ9qrrUS99\n試してみよう"
+            },
+            {
+                "id": 1082354837239545900,
+                "user_name": "MM17389505",
+                "user_id": 878702365905498100,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082353674582720500,
+                "user_name": "hiphoox",
+                "user_id": 19873956,
+                "text": "RT @ElixirTip: WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082353182737616900,
+                "user_name": "ElixirTip",
+                "user_id": 2436225054,
+                "text": "WaspVM is a WebAssembly Virtual Machine written in Elixir. https://t.co/rGpWrdAew9 https://t.co/6VQAQWVQsN"
+            },
+            {
+                "id": 1082352836417966100,
+                "user_name": "lover_drop",
+                "user_id": 961527161583673300,
+                "text": "(crypto gets 4words or less)EOS[EOS]=Decentralized applications on WebAssembly"
+            },
+            {
+                "id": 1082352745959641100,
+                "user_name": "MrBzzz",
+                "user_id": 60035583,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082352401292640300,
+                "user_name": "JSKongress",
+                "user_id": 4892578246,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082352190717595600,
+                "user_name": "jowe",
+                "user_id": 14687861,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082349612902563800,
+                "user_name": "AaronCuddeback",
+                "user_id": 310897418,
+                "text": "RT @uncle_dallas: Single Page Application In #Blazor With #Azure Table #Storage https://t.co/EqmqG6FJJ9 via @CsharpCorner #spa #webassembly…"
+            },
+            {
+                "id": 1082348537113989100,
+                "user_name": "FuzzieLabs",
+                "user_id": 584748509,
+                "text": "RT @rustwasm: Reflecting on Rust and WebAssembly in 2018\n\nhttps://t.co/WOhJ441CrH"
+            },
+            {
+                "id": 1082344475089883100,
+                "user_name": "FuzzieLabs",
+                "user_id": 584748509,
+                "text": "RT @chinedufn: Building the controls was also fun - Just quick little Rust types!\n\nI'm still floored by how easy it is to write WebAssembly…"
+            },
+            {
+                "id": 1082343692575350800,
+                "user_name": "CarlBateman",
+                "user_id": 525514612,
+                "text": "RT @chinedufn: I just published a tutorial on using WebGL + Rust + WebAssembly to render some basic water!\n\nPost - https://t.co/Wn55DS38A8…"
+            },
+            {
+                "id": 1082342165831970800,
+                "user_name": "yoshuawuyts",
+                "user_id": 39952227,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082341864123129900,
+                "user_name": "reddit4devs",
+                "user_id": 1863470557,
+                "text": "https://t.co/AQHlaa3YOS Rendering Water with WebGL, Rust and WebAssembly"
+            },
+            {
+                "id": 1082341277142868000,
+                "user_name": "TheWondersOfOz",
+                "user_id": 68070135,
+                "text": "In 2019 I want to write Hello World++ (something moderately useful) in Go &amp; something running in WebAssembly. Check in 358 days from now."
+            },
+            {
+                "id": 1082340967204687900,
+                "user_name": "blkCodeCollctve",
+                "user_id": 764616085534609400,
+                "text": "RT @captainsafia: I'm trying to be more proactive about staying up-to-date on the latest developer things this year.\n\nSo, to start off, I w…"
+            },
+            {
+                "id": 1082339825729003500,
+                "user_name": "b4rtok",
+                "user_id": 191829468,
+                "text": "RT @rustwasm: We are resuming working group meetings for 2019 this Thursday, 17:00 UTC!\n\nhttps://t.co/o0ei2NkOwx\n\nInterested in Rust and We…"
+            },
+            {
+                "id": 1082339718719815700,
+                "user_name": "nutseba",
+                "user_id": 1891739941,
+                "text": "RT @mnt_io: WebGL + Rust [+ WebAssembly]: Basic Water Tutorial, https://t.co/2B8AuPw1Lf.\n\nThis tutorial explains how to compile Rust and We…"
+            },
+            {
+                "id": 1082338328093941800,
+                "user_name": "uncle_dallas",
+                "user_id": 404190338,
+                "text": "Single Page Application In #Blazor With #Azure Table #Storage https://t.co/EqmqG6FJJ9 via @CsharpCorner #spa… https://t.co/oApd8Otkc0"
+            }
+        ]
+    }],
+    "keyword-rust": [{
+        "rate-limit-remaining": "175",
+        "rate-limit-reset": "1546921914",
+        "tweets": [
+            {
+                "id": 1082493848629190700,
+                "user_name": "VHS_Rust",
+                "user_id": 773771722872987600,
+                "text": "RT @LORAFRIMANEE: dawg LMFAOOO https://t.co/dC35Sri9D2"
+            },
+            {
+                "id": 1082493776013123600,
+                "user_name": "__rkaneko",
+                "user_id": 375134088,
+                "text": "[wasm[WebAssembly][rust][webworker] / “Comlink + Rust で言語とスレッドの垣根を越えた WebAssembly 開発 - Qiita” https://t.co/lucxT21iLf"
+            },
+            {
+                "id": 1082493744891326500,
+                "user_name": "Sudhans04162594",
+                "user_id": 4727816941,
+                "text": "RT @BORN4WIN: Which is the most malleable metal?\n- Gold\n\nWhich metal is a liquid at room temperature?\n- Mercury\n\nWhat two elements are used…"
+            },
+            {
+                "id": 1082493729150242800,
+                "user_name": "ignacio_rust",
+                "user_id": 1050370046600601600,
+                "text": "@zGonzqh @oridemierda Gracias ,cuando quieras nos comemos un mango bien clásico con Luca yatusabe"
+            },
+            {
+                "id": 1082493607444209700,
+                "user_name": "Dr_Khanna71",
+                "user_id": 1069257683763642400,
+                "text": "@NOSsport Nederlandse pers laat die man met rust."
+            },
+            {
+                "id": 1082493440317890600,
+                "user_name": "ignacio_rust",
+                "user_id": 1050370046600601600,
+                "text": "@oridemierda I love you ❤️ you now ?? My Instagram is ignacio_rust"
+            },
+            {
+                "id": 1082493359934062600,
+                "user_name": "zGonzqh",
+                "user_id": 834964664861749200,
+                "text": "@ignacio_rust @oridemierda Ohhh ese nivel de ingles papuh xD"
+            },
+            {
+                "id": 1082493248768217100,
+                "user_name": "MillennialPrez1",
+                "user_id": 463176568,
+                "text": "RT @GCACInfo: @EWCAthletics proving they’re contenders with an important conference win against GCAC newcomer Rust. #TigerPride🐅 #GCACGamed…"
+            },
+            {
+                "id": 1082493236692877300,
+                "user_name": "clouxtt",
+                "user_id": 1079946189808783400,
+                "text": "RT @FaZeApex: How to shut up a trash talker... its almost 2019 and a 1v1 on Rust still does the job. https://t.co/TOBA7OR59l"
+            },
+            {
+                "id": 1082493101963276300,
+                "user_name": "CurtisMichael44",
+                "user_id": 2836062260,
+                "text": "RT @JordanChariton: THREAD: So here is question no corporate horse race journalist would ask. If MI, WI, PA, and Ohio rejected @HillaryClin…"
+            },
+            {
+                "id": 1082493096326246400,
+                "user_name": "ignacio_rust",
+                "user_id": 1050370046600601600,
+                "text": "@oridemierda Y love the first photo and I love you 💕"
+            },
+            {
+                "id": 1082493012125593600,
+                "user_name": "mharvey816",
+                "user_id": 20737589,
+                "text": "RT @armandodkos: The Rust Belt argument for Biden is completely overtaken by Sherrod Brown whose victories in Ohio are not theoretical, as…"
+            },
+            {
+                "id": 1082492990512382000,
+                "user_name": "ignacio_rust",
+                "user_id": 1050370046600601600,
+                "text": "@oridemierda https://t.co/FnrhzOjXJU"
+            },
+            {
+                "id": 1082492868508344300,
+                "user_name": "rust_sp",
+                "user_id": 2316164626,
+                "text": "@o_hee_love 사.. 사랑.. 아니 좋아합니다🙊"
+            },
+            {
+                "id": 1082492843149717500,
+                "user_name": "USAFamily_1st",
+                "user_id": 1554514465,
+                "text": "@espiers Candace @RealCandaceO  supporter here...\nGet a grip woman,\n“Rust consumes iron and envy consumes itself.”- Danish Proverb"
+            },
+            {
+                "id": 1082492763147509800,
+                "user_name": "dan1000100",
+                "user_id": 869226808788607000,
+                "text": "RT @Mrjamesgifford: 7. Sword of Dehydration - Rust and wear covers the blade of this Khopesh sword. As you swing it, it moves effortlessly…"
+            },
+            {
+                "id": 1082492697494147100,
+                "user_name": "Headd_Shott",
+                "user_id": 4491279857,
+                "text": "Gostei de um vídeo @YouTube https://t.co/OKa4KikCq2 - Rust 00001"
+            },
+            {
+                "id": 1082492383374266400,
+                "user_name": "WomenRockFilm",
+                "user_id": 2338071158,
+                "text": "RT @FilmInquiry: 🎆NEW: @iamjenmcg's #RustCreek has a strong emotional core in its consistent admonishment of amorality and apathy, a decept…"
+            },
+            {
+                "id": 1082492253854203900,
+                "user_name": "TheDeathKiller7",
+                "user_id": 1353871249,
+                "text": "I liked a @YouTube video https://t.co/rK7ox6tvEB A ZERG STUMBLED UPON MY RAID - Rust Survival"
+            },
+            {
+                "id": 1082492203480559600,
+                "user_name": "GCACReport",
+                "user_id": 1053422497431986200,
+                "text": "RT @GCACInfo: @EWCAthletics proving they’re contenders with an important conference win against GCAC newcomer Rust. #TigerPride🐅 #GCACGamed…"
+            },
+            {
+                "id": 1082492173826838500,
+                "user_name": "JanetETennessee",
+                "user_id": 43452851,
+                "text": "RT @armandodkos: The Rust Belt argument for Biden is completely overtaken by Sherrod Brown whose victories in Ohio are not theoretical, as…"
+            },
+            {
+                "id": 1082492153891151900,
+                "user_name": "goldlakerss",
+                "user_id": 1976621846,
+                "text": "Rust, came back from injury. He gets a pass https://t.co/QZIr03ykhs"
+            },
+            {
+                "id": 1082492141300006900,
+                "user_name": "plsalexandra",
+                "user_id": 827613263881986000,
+                "text": "RT @sikenpoems: I find parts that overlap with mine and light them\nup in clays and creams, yellow music singing pink,\nthe flicker of his mo…"
+            },
+            {
+                "id": 1082491996722196500,
+                "user_name": "TheSpinDoctor",
+                "user_id": 20095163,
+                "text": "RT @MissScarFever: Okay. I need to find an inexpensive van for my step dad. He does a lot of my moms work for me and I need him on the road…"
+            },
+            {
+                "id": 1082491850055958500,
+                "user_name": "angchinik98",
+                "user_id": 886872102,
+                "text": "I liked a @YouTube video https://t.co/i89sykZTcM RUST | FARMING GEARED PLAYERS WITH AN AUTO TURRET BASE!"
+            },
+            {
+                "id": 1082491811229302800,
+                "user_name": "DenverRipley",
+                "user_id": 564391071,
+                "text": "RT @GCACInfo: @EWCAthletics proving they’re contenders with an important conference win against GCAC newcomer Rust. #TigerPride🐅 #GCACGamed…"
+            },
+            {
+                "id": 1082491799195840500,
+                "user_name": "realthatguyseth",
+                "user_id": 883032957652488200,
+                "text": "Just got my crusader helmet and the thing was absolutely drenched with oil... they really didn’t want the thing to rust"
+            },
+            {
+                "id": 1082491699006500900,
+                "user_name": "ROTOMONGAMING",
+                "user_id": 90980809,
+                "text": "I'm now streaming on Twitch! Playing Rust https://t.co/T4iJdg0PPN"
+            },
+            {
+                "id": 1082491581624737800,
+                "user_name": "JeezyE636",
+                "user_id": 1034984996174540800,
+                "text": "@JRsBBQ I’m hoping it was just rust but Strowman’s promo was really bad."
+            },
+            {
+                "id": 1082491544496754700,
+                "user_name": "meredithnudo",
+                "user_id": 23835004,
+                "text": "Portals and rust https://t.co/eKkbHrsnV5"
+            },
+            {
+                "id": 1082491458484023300,
+                "user_name": "BioNovelus",
+                "user_id": 2831921446,
+                "text": "10 Interesting Coffee Plant Facts for the Aficionados\nhttps://t.co/TNC0vPq8at"
+            },
+            {
+                "id": 1082491381770305500,
+                "user_name": "bencooperbot",
+                "user_id": 953447850335199200,
+                "text": "The floorboards are rotten\nThe sink's full of rust\nAnd using my pinky\nI draw you in the dust"
+            },
+            {
+                "id": 1082491111325818900,
+                "user_name": "TMobius1",
+                "user_id": 827947419610529800,
+                "text": "RT @Pineaqples: I'm going to play some COD, maybe some Rust if I can figure out how to make it more streamer friendly without giving away a…"
+            },
+            {
+                "id": 1082491093646594000,
+                "user_name": "KillerR_zX",
+                "user_id": 4168516693,
+                "text": "RT @kuroikaze_bp: 【カレープレゼント企画】\n＜ＲＵＳＴ・ＰＵＢＧ好きな方限定＞\n1/21はカレーの日。カレーを食べて配信者(選手)を応援しよう！\n何が届くかはお楽しみ。\n※１名以上、好きな配信者(選手)を必ずリプして下さい \n※欲しい物リスト・又は郵送先住所の…"
+            },
+            {
+                "id": 1082490986738139100,
+                "user_name": "_Futurephenom_2",
+                "user_id": 331478957,
+                "text": "RT @GCACInfo: @EWCAthletics proving they’re contenders with an important conference win against GCAC newcomer Rust. #TigerPride🐅 #GCACGamed…"
+            },
+            {
+                "id": 1082490970460045300,
+                "user_name": "EWCAthletics",
+                "user_id": 3430197299,
+                "text": "RT @GCACInfo: @EWCAthletics proving they’re contenders with an important conference win against GCAC newcomer Rust. #TigerPride🐅 #GCACGamed…"
+            },
+            {
+                "id": 1082490913757159400,
+                "user_name": "Norm92177413",
+                "user_id": 963162636668907500,
+                "text": "@InsideEVs @Tesla As a car owner, I’ll take a little weight for enough metal to withstand corrosion and rust for a… https://t.co/rlpH9KFBzi"
+            },
+            {
+                "id": 1082490870094536700,
+                "user_name": "redbox_rental",
+                "user_id": 1082417294951809000,
+                "text": "RT @FackIsaiah: If ANYONE and their friends wants to lose(or gain) $20 play me on rust https://t.co/SEPiJewg9q"
+            },
+            {
+                "id": 1082490773235531800,
+                "user_name": "IndivisibleTol1",
+                "user_id": 824707502763872300,
+                "text": "RT @belt_publishing: Have you read Rust Belt Arcana? Specifically Chapter 14? It's about Mentor Marsh in Mentor, Ohio. Read the latest on t…"
+            },
+            {
+                "id": 1082490755363598300,
+                "user_name": "GCACInfo",
+                "user_id": 838794144977981400,
+                "text": "@EWCAthletics proving they’re contenders with an important conference win against GCAC newcomer Rust. #TigerPride🐅… https://t.co/yr87hyxwDW"
+            },
+            {
+                "id": 1082490724652933100,
+                "user_name": "sloanepete310",
+                "user_id": 496789233,
+                "text": "RT @ALT_uscis: Steel slats need paint every few months, because rust.\nIt costs at minimum $7 to paint steel per lineal foot including labor…"
+            },
+            {
+                "id": 1082490617710620700,
+                "user_name": "crystalangela",
+                "user_id": 35934923,
+                "text": "@FidelOnTheRoof she’s big and her hair turns smokey with rust tones in the sun"
+            },
+            {
+                "id": 1082490551750938600,
+                "user_name": "Shrikan25903184",
+                "user_id": 927414051465863200,
+                "text": "RT @BORN4WIN: Which is the most malleable metal?\n- Gold\n\nWhich metal is a liquid at room temperature?\n- Mercury\n\nWhat two elements are used…"
+            },
+            {
+                "id": 1082490352898998300,
+                "user_name": "GodAimAkira",
+                "user_id": 894447886804570100,
+                "text": "Rustは楽しいよ。"
+            },
+            {
+                "id": 1082490159332028400,
+                "user_name": "SantoshnayaksS",
+                "user_id": 2927319744,
+                "text": "RT @SubhadipNandy: @Jackiev999 Suzanne - Len Cohen \nNevermind - Len Cohen\nDiamonds and rust - Joan Baez \nForever young - Joan Baez"
+            },
+            {
+                "id": 1082490094886445000,
+                "user_name": "tulipteardrops",
+                "user_id": 195314141,
+                "text": "RT @JRsPillows: Paisley Pillow Cover in Brown Rust Peach Chenille.. https://t.co/CseUdJqMf2 #handmade #pottiteam https://t.co/qKNF4cPD94"
+            },
+            {
+                "id": 1082490056160497700,
+                "user_name": "DC_GOP",
+                "user_id": 4827572080,
+                "text": "@SpeakerPelosi @realDonaldTrump Pelosi you do not under smart border security. The boarder agents are  asking for t… https://t.co/XKrvtv0DZt"
+            },
+            {
+                "id": 1082490048681898000,
+                "user_name": "hazelnut_2",
+                "user_id": 997325951443714000,
+                "text": "RT @so_rust: @so_rust 生徒×先生 https://t.co/jOHkpgh1LC"
+            },
+            {
+                "id": 1082489996991389700,
+                "user_name": "hilaurel",
+                "user_id": 14059250,
+                "text": "RT @MissScarFever: Okay. I need to find an inexpensive van for my step dad. He does a lot of my moms work for me and I need him on the road…"
+            },
+            {
+                "id": 1082489901193384000,
+                "user_name": "CZeig",
+                "user_id": 79762610,
+                "text": "I liked a @YouTube video https://t.co/vFIGvTs4VS Rust Base Building - Rust Solo Base - Rust Base Design"
+            },
+            {
+                "id": 1082489847091212300,
+                "user_name": "MaddieJ26229242",
+                "user_id": 1042328051873468400,
+                "text": "Who here plays rust??"
+            },
+            {
+                "id": 1082489796927209500,
+                "user_name": "eronaeagle",
+                "user_id": 841511490574200800,
+                "text": "RT @ff14cake: - Paladin\nEven should my shield split,\nand my sturdy armor rust, \nI'll defend you from any harm;\nmy honor you can trust.\n- Ba…"
+            },
+            {
+                "id": 1082489693521002500,
+                "user_name": "tripzerotv",
+                "user_id": 2977572466,
+                "text": "Felt so good to be back, you guys! Thanks for everyone stopping in, shaking that streaming rust off. Crazy how a bi… https://t.co/liCfIrFddk"
+            },
+            {
+                "id": 1082489586146775000,
+                "user_name": "hiiroyuys",
+                "user_id": 1020787135664836600,
+                "text": "After cleaning 5 cast iron skillets of rust, my hands smell like pennies and i wish it would stop."
+            },
+            {
+                "id": 1082489420295663600,
+                "user_name": "_mattbarlow",
+                "user_id": 860721637,
+                "text": "https://t.co/giPir81jxs"
+            },
+            {
+                "id": 1082489419179864000,
+                "user_name": "hiroshiakiike",
+                "user_id": 51356059,
+                "text": "Rustはその他の中か… https://t.co/NEaqqGxXNJ"
+            },
+            {
+                "id": 1082489313932308500,
+                "user_name": "artisticdream79",
+                "user_id": 834133475104006100,
+                "text": "@HondaGuy4 Thanks.  I think all my rust is gone now.  I'm back to producing."
+            },
+            {
+                "id": 1082489256902185000,
+                "user_name": "HITORI_ORE",
+                "user_id": 1028767365574488000,
+                "text": "@e3603295703 すこしRUST離れて見直すのもいいですね。\nRUSTで知り合った仲間は忘れてはだめですよー。\n色んな事に挑戦しましょう。"
+            },
+            {
+                "id": 1082489182524710900,
+                "user_name": "OA_Sports",
+                "user_id": 169673298,
+                "text": "MEN'S COLLEGE BASKETBALL: Wranglers shake off rust in win over NMMI https://t.co/n1BilR44Wj via @OdessaAmerican #oasports"
+            },
+            {
+                "id": 1082489157249912800,
+                "user_name": "BobB6345789",
+                "user_id": 787523902188752900,
+                "text": "@davidmweissman For cleaning rust from a car bumper! But it tastes like shit!"
+            },
+            {
+                "id": 1082489129177358300,
+                "user_name": "LisenTrailer",
+                "user_id": 1076146396774817800,
+                "text": "我向 @YouTube 播放列表添加了一个视频 https://t.co/ii0ScwPh9G Rust Creek （Official Trailers &amp; Clips) | Lisen Trailer |"
+            },
+            {
+                "id": 1082489007513264100,
+                "user_name": "lizevandenberg",
+                "user_id": 235972433,
+                "text": "RT @SejlaMehic: Het feit da ik over allllllles met mijn mama kan praten geeft mij echt rust. Letterlijk mijn beste vriendin 🥰"
+            },
+            {
+                "id": 1082488810775154700,
+                "user_name": "rust_pat",
+                "user_id": 826879828494340100,
+                "text": "I guess it helps to be tall🤷🏻‍♂️\nhttps://t.co/I5Scdk2acp"
+            },
+            {
+                "id": 1082488717728759800,
+                "user_name": "giacoio",
+                "user_id": 987405138435469300,
+                "text": "RT @DEATHWILLFIND: Some of y’all never won a game on rust and it really shows. https://t.co/YG4n4RDg3f"
+            },
+            {
+                "id": 1082488699965837300,
+                "user_name": "Twinkle_Cave",
+                "user_id": 764130085058256900,
+                "text": "We all knew this was going to happen.... https://t.co/w57V0CtHDt We are back to rust FOR NOW....... https://t.co/QUN3V2dzUx"
+            },
+            {
+                "id": 1082488575470428200,
+                "user_name": "OkidHitamBeduri",
+                "user_id": 207495651,
+                "text": "In 1927 a hybrid between robusta and arabica was found in Timor. This strain was subsequently used to breed rust-resistant plants."
+            },
+            {
+                "id": 1082488508873240600,
+                "user_name": "H_Ayakaze",
+                "user_id": 128503721,
+                "text": "mw2のRUSTで遊べるVR...？"
+            },
+            {
+                "id": 1082488467748151300,
+                "user_name": "viittorpp",
+                "user_id": 355605439,
+                "text": "Gostei de um vídeo @YouTube https://t.co/LxvGULAGqH - Rust 00001"
+            },
+            {
+                "id": 1082488327733801000,
+                "user_name": "rust_eisMont",
+                "user_id": 1892993600,
+                "text": "岡本信彦 - Wikipedia\nティッピーブルー岡本さんだったのかwww(今更www) https://t.co/WxJzkANClS"
+            },
+            {
+                "id": 1082488249132765200,
+                "user_name": "robertgaming14",
+                "user_id": 703033364358504400,
+                "text": "A NORMAL DAY IN RUST (kinda): https://t.co/J0xoUVAbVK via @YouTube"
+            },
+            {
+                "id": 1082487874656878600,
+                "user_name": "M_M_Martindale",
+                "user_id": 1081238577579769900,
+                "text": "When you've finally had enough education to understand what  Rust says in the first season of True Detectives. https://t.co/KesTcUYPDy"
+            },
+            {
+                "id": 1082487874111656000,
+                "user_name": "charsfavorite",
+                "user_id": 341951269,
+                "text": "RT @PottiTeam: Jacquard Pillow Cover in Rust Blue Grey Tan Beige / Geometric Pillow / Tribal Pillow / Accent Pillow / Decorative Pillow / 1…"
+            },
+            {
+                "id": 1082487733086343200,
+                "user_name": "BenagiShrikant",
+                "user_id": 1065177896094855200,
+                "text": "RT @BORN4WIN: Which is the most malleable metal?\n- Gold\n\nWhich metal is a liquid at room temperature?\n- Mercury\n\nWhat two elements are used…"
+            },
+            {
+                "id": 1082487656456568800,
+                "user_name": "emilygoldsmith_",
+                "user_id": 1499834467,
+                "text": "RT @DEATHWILLFIND: Some of y’all never won a game on rust and it really shows. https://t.co/YG4n4RDg3f"
+            },
+            {
+                "id": 1082487637754200000,
+                "user_name": "ThumbsUpDeals",
+                "user_id": 786909353223659500,
+                "text": "RT @StatesPoll: TRUMP Approval Rating in Rust Belt(MI/MN/OH/PA/WI)+NV \nReuters, 10/21-12/25, 2018.  1,102 LV\nMy Analysis Post: https://t.co…"
+            },
+            {
+                "id": 1082487613372551200,
+                "user_name": "KerriLynnP",
+                "user_id": 543050308,
+                "text": "RT @MissScarFever: Okay. I need to find an inexpensive van for my step dad. He does a lot of my moms work for me and I need him on the road…"
+            },
+            {
+                "id": 1082487532233863200,
+                "user_name": "PottiTeam",
+                "user_id": 1755776473,
+                "text": "Jacquard Pillow Cover in Rust Blue Grey Tan Beige / Geometric Pillow / Tribal Pillow / Accent Pillow / Decorative P… https://t.co/fFDTCIXAqi"
+            },
+            {
+                "id": 1082487481059106800,
+                "user_name": "weatleweatle",
+                "user_id": 844527583,
+                "text": "@rust_jlsk メディアは天皇陛下という呼称から我が魔王という呼称を使うようになる"
+            },
+            {
+                "id": 1082487406735982600,
+                "user_name": "lovecankill",
+                "user_id": 9373552,
+                "text": "這個專案逐漸變成 Rust 的形狀了..."
+            },
+            {
+                "id": 1082487396933877800,
+                "user_name": "Rust_hiro",
+                "user_id": 992799641275060200,
+                "text": "@Amanonion いえいえこちらこそ、ただの初心者オッサンゲーマーにフォローしてくれてありがとう御座います(*´▽`)ﾉ\nPCもツイッターも本当に全てが初心者です:(_;´꒳`;):_（笑）"
+            },
+            {
+                "id": 1082487382958587900,
+                "user_name": "adambroach",
+                "user_id": 58291812,
+                "text": "@sayrer I like the *readability* of the above code, but you're completely correct.\n\nI'm not sold on server-side JS… https://t.co/n1jOTBOmHr"
+            },
+            {
+                "id": 1082487295377268700,
+                "user_name": "daemonite",
+                "user_id": 16457706,
+                "text": "RT @sheckyyoungman: Perspective: Referring to Our Terrible Overlord Cthulhu as \"That Squid Fuck\" Only Emboldens His Eyeless Supporters Mire…"
+            },
+            {
+                "id": 1082487290923020300,
+                "user_name": "raenimah743",
+                "user_id": 797109902229393400,
+                "text": "RT @basantaplp: जब एक अर्काकाे Trust कम हुदैन जान्छ, सम्बन्धमा Rust लाग्न सुरू हुन्छ । 🤔"
+            },
+            {
+                "id": 1082487270790164500,
+                "user_name": "rust_soe",
+                "user_id": 743743161302802400,
+                "text": "RT @davidgoggins: Have the courage to build yourself up from the ground up. If you are born thinking that you are nothing or worthless, tha…"
+            },
+            {
+                "id": 1082487261776666600,
+                "user_name": "TheTomSchanley",
+                "user_id": 37090806,
+                "text": "Let’s hope there’s not too much rust on Drew after two weeks off! #WhoDat https://t.co/ahysRdW5c1"
+            },
+            {
+                "id": 1082487189882183700,
+                "user_name": "RingRustRadio",
+                "user_id": 384630357,
+                "text": "We’re about to go LIVE on #getvokl at 11:15 p.m. ET with the Ring Rust #WWE #Raw Recap show! \n\nJoin in on the… https://t.co/KE8DBAIfsp"
+            },
+            {
+                "id": 1082487115450105900,
+                "user_name": "James03919927",
+                "user_id": 1078550675024433200,
+                "text": "@Constance_N21 @abena_xxx Ur nunu will rust"
+            },
+            {
+                "id": 1082487013310378000,
+                "user_name": "sportswoman11",
+                "user_id": 815588190,
+                "text": "RT @halfthepicture: Check out Director Jen McGowan's new film RUST CREEK, in theaters in NYC now and in Los Angeles &amp; other cities THIS FRI…"
+            },
+            {
+                "id": 1082486993051766800,
+                "user_name": "jollywhiskey",
+                "user_id": 191965782,
+                "text": "@Broncogrl25 Maybe he's like y'all are on your own I'M OUT and like mic dropped. No I'm totally kidding. Willie pro… https://t.co/eXL5lxh750"
+            },
+            {
+                "id": 1082486987464990700,
+                "user_name": "rust_jlsk",
+                "user_id": 774132156637392900,
+                "text": "@weatleweatle 祝え！新たなる皇の誕生を！"
+            },
+            {
+                "id": 1082486754639114200,
+                "user_name": "weatleweatle",
+                "user_id": 844527583,
+                "text": "@rust_jlsk 次の天皇がジクウドライバーで変身しながら高らかに新元号を発表するんや"
+            },
+            {
+                "id": 1082486692047736800,
+                "user_name": "diogoqcosta1906",
+                "user_id": 732679395069067300,
+                "text": "@2v1me_rust As vezes exagera um bocado opa mas um gajo 5 estrelas mm"
+            },
+            {
+                "id": 1082486623886102500,
+                "user_name": "marylin07436734",
+                "user_id": 1077229628492701700,
+                "text": "RT @VirginiaSlimLA: #RUST CREEK the film, in theatres nationwide on Friday. Go see it. Amazing!\n@lunacyproductions @dhillactor @seanobrien…"
+            },
+            {
+                "id": 1082486568923873300,
+                "user_name": "VistaWindowMfg",
+                "user_id": 195086982,
+                "text": "It's time for new windows if you see rust on your frames."
+            },
+            {
+                "id": 1082486509192659000,
+                "user_name": "qiqitoRustymas",
+                "user_id": 4099146502,
+                "text": "Me ha gustado un vídeo de @YouTube (https://t.co/R5cwkGpfcC - DIRECTO RUST - WIPE DIFINITIVO)."
+            },
+            {
+                "id": 1082486467430015000,
+                "user_name": "rust_jlsk",
+                "user_id": 774132156637392900,
+                "text": "@weatleweatle 元号に魔の字を入れていくの強気すぎる。"
+            },
+            {
+                "id": 1082486433670225900,
+                "user_name": "metalgearfan13",
+                "user_id": 166065359,
+                "text": "@RAZ0RFIST Bernie would've upset the rust belt even more than Hillary with those tax rates."
+            }
+        ]
+    }],
+    "keyword-mozilla": [{
+        "rate-limit-remaining": "174",
+        "rate-limit-reset": "1546921914",
+        "tweets": [
+            {
+                "id": 1082493876831748100,
+                "user_name": "sw4rn4v4",
+                "user_id": 74750220,
+                "text": "RT @jc_news: HTC Vive headset taps into Firefox Reality, Mozilla's VR browser - CNET https://t.co/9y8vRw6VRw"
+            },
+            {
+                "id": 1082493138764214300,
+                "user_name": "felixlucid",
+                "user_id": 42849627,
+                "text": "@FidelityNews @htcvive @mozilla @amazon Really? Bring it on. I'd love a VR Based Fidelity Investment application!"
+            },
+            {
+                "id": 1082492791677161500,
+                "user_name": "You_R_Sleeping",
+                "user_id": 717899586812125200,
+                "text": "@mozilla you’re browser is constantly crashing constantly my Mac. TBH it is absolutely ridiculous."
+            },
+            {
+                "id": 1082491588880859100,
+                "user_name": "sunk818",
+                "user_id": 15162579,
+                "text": "Goodbye, EdgeHTML https://t.co/Wq2f41J2aU"
+            },
+            {
+                "id": 1082491585219125200,
+                "user_name": "itvesti",
+                "user_id": 259413207,
+                "text": "Mozilla predstavila planove za Thunderbird u ovoj godini\n\nhttps://t.co/0X2yebd4PG"
+            },
+            {
+                "id": 1082491578482999300,
+                "user_name": "PrabhhavSharma",
+                "user_id": 4254659899,
+                "text": "@htcvive @mozilla @awscloud @DivyaMangotra"
+            },
+            {
+                "id": 1082491365609652200,
+                "user_name": "CharlesO888",
+                "user_id": 883586177915375600,
+                "text": "RT @ZDNet: HTC partners with Mozilla's Firefox, AWS Amazon Sumerian to bolster enterprise case for virtual reality apps https://t.co/JPJL2O…"
+            },
+            {
+                "id": 1082491356235382800,
+                "user_name": "mo6_mozilla",
+                "user_id": 1524778890,
+                "text": "@FunnyAfrica Lasted"
+            },
+            {
+                "id": 1082491226337665000,
+                "user_name": "GamerGeekNews",
+                "user_id": 316331833,
+                "text": "Mozilla: Privacy, Firefox 65 Beta 10 Testday, VR and Servo Development https://t.co/tHQbW2Ac84 #Moz/FF"
+            },
+            {
+                "id": 1082491111216689200,
+                "user_name": "schestowitz",
+                "user_id": 26603208,
+                "text": "Mozilla: Privacy, Firefox 65 Beta 10 Testday, VR and #Servo Development\n https://t.co/kno3IaCThp #mozilla #firefox #www #freesw"
+            },
+            {
+                "id": 1082491027351580700,
+                "user_name": "tuxmachines",
+                "user_id": 417341853,
+                "text": "Mozilla: Privacy, Firefox 65 Beta 10 Testday, VR and Servo Development\n https://t.co/hNrKjUW7U8"
+            },
+            {
+                "id": 1082490803522547700,
+                "user_name": "mo6_mozilla",
+                "user_id": 1524778890,
+                "text": "RT @moveover4me2: I am an American humanitarian. I tweet for the countries that are facing a genocide. Yemen, Syria, Iran, Africa when they…"
+            },
+            {
+                "id": 1082490734505283600,
+                "user_name": "pauljadam",
+                "user_id": 24923263,
+                "text": "RT @marcysutton: It's axe extension release day! There are new versions for #a11y testing in Chrome &amp; Firefox, fixing some bugs and updatin…"
+            },
+            {
+                "id": 1082490448633974800,
+                "user_name": "ED70826477",
+                "user_id": 1870076274,
+                "text": "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy. https://t.co/sOumKtELRX"
+            },
+            {
+                "id": 1082490256635633700,
+                "user_name": "blackdekpe",
+                "user_id": 991353414,
+                "text": "RT @verge: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset #CES2019 https://t.co/9eWAS2KOtv ht…"
+            },
+            {
+                "id": 1082489634213515300,
+                "user_name": "Dan_Alcuna",
+                "user_id": 736514523763445800,
+                "text": "RT @darth_na: @STATrob There may be some config settings you can enable to help with speed.\nhttps://t.co/LgomWsDe5i\nhttps://t.co/6wVjAobeL5…"
+            },
+            {
+                "id": 1082488447242186800,
+                "user_name": "qon4649",
+                "user_id": 1675076292,
+                "text": "【VBA】 データ型 https://t.co/R0scD39Azu"
+            },
+            {
+                "id": 1082488330594349000,
+                "user_name": "imthe05",
+                "user_id": 829239332397576200,
+                "text": "RT @EPro: Tech birthdays in 2019:\n\nLyft: 7 years\nSnapchat: 8 years\nUber: 10 years\nTwitter: 13 years\nFacebook: 15 years\nTesla: 16 years\nGoog…"
+            },
+            {
+                "id": 1082488303952134100,
+                "user_name": "rfkelly",
+                "user_id": 20952498,
+                "text": "RT @indygreg: I am no longer working at Mozilla. In fact, I'm not working anywhere! I blogged about seeking employment. Who's hiring? https…"
+            },
+            {
+                "id": 1082487686332600300,
+                "user_name": "PerigGouanvicSC",
+                "user_id": 740663789201305600,
+                "text": "@benh_cfs You might find this useful\nhttps://t.co/jGMvM5jPxT"
+            },
+            {
+                "id": 1082487139261136900,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "Dragana Damjanovic  -  In case we already have a h2 connection and it does not support websockets, we should not tr… https://t.co/nayfqFi8AO"
+            },
+            {
+                "id": 1082487136878841900,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "Randall Barker  - Add GeckoView API to toggle desktop viewport support r=geckoview-reviewers,snorp,agi -… https://t.co/bWWYcXpnME"
+            },
+            {
+                "id": 1082487057228984300,
+                "user_name": "gggooottto",
+                "user_id": 259257627,
+                "text": "Read later... 初めての WebExtension https://t.co/hotO1JSkTG"
+            },
+            {
+                "id": 1082486046707851300,
+                "user_name": "TechmemeChatter",
+                "user_id": 771810098025037800,
+                "text": "RT @DavisMTL: \"for HTC and Valve, partnering with Mozilla means they do not have to  rely on a competitor’s web browser, while also getting…"
+            },
+            {
+                "id": 1082485639529025500,
+                "user_name": "Paul_Valley",
+                "user_id": 293206946,
+                "text": "Bueno, por ahora Twitter me anda en Mozilla. Algún virus o algún vivo se me metió en el Chrome."
+            },
+            {
+                "id": 1082485469688954900,
+                "user_name": "TrevorFSmith",
+                "user_id": 6940,
+                "text": "RT @RickKing16: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset https://t.co/mdwDC6mJEq #vr ht…"
+            },
+            {
+                "id": 1082485278260920300,
+                "user_name": "aetos382",
+                "user_id": 78941164,
+                "text": "MDN ってもともと Mozilla のサイトだったけど、Mozilla と Google と Microsoft の三社合意で「Web 開発系のドキュメントはここにまとめましょう」ってなったんですよね。\nでも Microsoft… https://t.co/5mGQl244Iu"
+            },
+            {
+                "id": 1082484838089711600,
+                "user_name": "kemitchell",
+                "user_id": 5855502,
+                "text": "@monadic @puppetmasterd @jspaleta @mjasay @webmink @nearyd @adamhjk @johnmark @OpenSourceOrg Eclipse, Mozilla, and… https://t.co/dTRMxP77fB"
+            },
+            {
+                "id": 1082484679406567400,
+                "user_name": "mandel59",
+                "user_id": 14919778,
+                "text": "RT @y_catch: Webの技術ドキュメントをみんなで日本語化するイベントです。はじめてでもOK！&gt;&gt;【第11回！】みんなで MDN を翻訳しよう！翻訳コミュニティ月例ミートアップ！ 2018年1月26日開催 https://t.co/wo7j0RpocV"
+            },
+            {
+                "id": 1082484654693789700,
+                "user_name": "take2webservice",
+                "user_id": 3307149642,
+                "text": "RT @y_catch: Webの技術ドキュメントをみんなで日本語化するイベントです。はじめてでもOK！&gt;&gt;【第11回！】みんなで MDN を翻訳しよう！翻訳コミュニティ月例ミートアップ！ 2018年1月26日開催 https://t.co/wo7j0RpocV"
+            },
+            {
+                "id": 1082484580937093100,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "WR Updater Bot  -  Update webrender to commit ca28ae618d249976a755db5419e5ec7c36bbfd1c (WR PR #3481). r=kats -… https://t.co/o830c6am5b"
+            },
+            {
+                "id": 1082484580144148500,
+                "user_name": "y_catch",
+                "user_id": 396652569,
+                "text": "Webの技術ドキュメントをみんなで日本語化するイベントです。はじめてでもOK！&gt;&gt;【第11回！】みんなで MDN を翻訳しよう！翻訳コミュニティ月例ミートアップ！ 2018年1月26日開催 https://t.co/wo7j0RpocV"
+            },
+            {
+                "id": 1082484262799097900,
+                "user_name": "WakorJones",
+                "user_id": 751269696918294500,
+                "text": "RT @CaseyExplosion: Don't just block them, block their followers and sockpuppets too. Using a Twitter Block Chain is extremely useful.\n\nFir…"
+            },
+            {
+                "id": 1082482794318708700,
+                "user_name": "schestowitz",
+                "user_id": 26603208,
+                "text": "You're using #windows there, #microsoftPeter , so #microsoft (NSA PRISM) can still see everything you do… https://t.co/t3p0NqVsna"
+            },
+            {
+                "id": 1082482556728045600,
+                "user_name": "neelgaganslg",
+                "user_id": 3163423831,
+                "text": "RT @htcvive: and AWS to bring true web VR to the market. AWS developers will be able to create VR-optimized websites, even if they have min…"
+            },
+            {
+                "id": 1082482495139074000,
+                "user_name": "karanganesan",
+                "user_id": 1369182355,
+                "text": "You know what ? \n\nWhat ever happens Immersive Web is gonna be a golden standards in coming years providing a true c… https://t.co/XqcyBqrP3C"
+            },
+            {
+                "id": 1082482286828970000,
+                "user_name": "RickKing16",
+                "user_id": 757365218,
+                "text": "HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset… https://t.co/SyGaBuw8fS"
+            },
+            {
+                "id": 1082482208693239800,
+                "user_name": "sukyies",
+                "user_id": 1064365408311001100,
+                "text": "@alexiatozier eu fui desinstalar o google pra ver se conseguia baixar de novo mas aí o mozilla parou de funcionar t… https://t.co/nVGGUKBKBK"
+            },
+            {
+                "id": 1082482062349750300,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "WR Updater Bot  -  Re-generate FFI header. r=kats - https://t.co/uMbzn6PP1O... https://t.co/I3q2TqjSY7"
+            },
+            {
+                "id": 1082482060252627000,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "WR Updater Bot  - Update webrender to commit cce627620aeecbe9e39cc2b39481f10d26aef892 (WR PR #3480). r=kats -… https://t.co/pTAV8hLBQo"
+            },
+            {
+                "id": 1082481065934020600,
+                "user_name": "jetleigh",
+                "user_id": 143850879,
+                "text": "RT @ZDNet: HTC partners with Mozilla's Firefox, AWS Amazon Sumerian to bolster enterprise case for virtual reality apps https://t.co/JPJL2O…"
+            },
+            {
+                "id": 1082480896366673900,
+                "user_name": "qon4649",
+                "user_id": 1675076292,
+                "text": "【VBA】 変数 https://t.co/FmcccUjMn0"
+            },
+            {
+                "id": 1082480500504027100,
+                "user_name": "ezkandar",
+                "user_id": 14525098,
+                "text": "gamification.\n\nhttps://t.co/dchM8nRV0M"
+            },
+            {
+                "id": 1082479725451173900,
+                "user_name": "Keishu_twi",
+                "user_id": 1382427673,
+                "text": "Thunderbird　無料で高機能なメールソフト\nhttps://t.co/TeDAHn1qk6"
+            },
+            {
+                "id": 1082479057265180700,
+                "user_name": "jesuscolmena1",
+                "user_id": 185495464,
+                "text": "Mozilla Firefox Reality becomes default web browser for HTC Vive VR displays https://t.co/GxBAT5gcbu"
+            },
+            {
+                "id": 1082478941737078800,
+                "user_name": "ikemenh",
+                "user_id": 998485909,
+                "text": "イケメンDJ☆https://t.co/KP0W7bjEte"
+            },
+            {
+                "id": 1082477287969194000,
+                "user_name": "Michael_Blade",
+                "user_id": 59563637,
+                "text": "RT @htcvive: We are also announcing a strategic partnership to bring a more seamless VR experience to our audience. We are partnering with…"
+            },
+            {
+                "id": 1082476126688006100,
+                "user_name": "ic_lifewood",
+                "user_id": 112167432,
+                "text": "RT @mozillajp: ウェブ技術に関するオープンソースドキュメントをみんなで翻訳する月例イベント、\n2019年最初の会を【1月26日(土) 13：00-18：00】にて開催します！🔥\n初めて参加する方も、常連のみなさんも、ぜひ奮ってご参加ください！\nhttps://t.…"
+            },
+            {
+                "id": 1082476060531396600,
+                "user_name": "pmclanahan",
+                "user_id": 13051222,
+                "text": "RT @lmorchard: \"Back to the future of the Internet: guidance from the Web’s open origins for today’s problems\" by @mitchellbaker describes…"
+            },
+            {
+                "id": 1082475882776686600,
+                "user_name": "Tanveer2550",
+                "user_id": 871101609618571300,
+                "text": "RT @CathyHackl: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset https://t.co/vguQJsm5bU #CeS20…"
+            },
+            {
+                "id": 1082475853512994800,
+                "user_name": "cb0day",
+                "user_id": 1618923336,
+                "text": "CES 2019：HTC宣布为Vive设备预装Mozilla VR浏览器 Mozilla 一直致力于推动更加开放的互联网，作为人们所熟知的，就是 Firefox 浏览器。而在新兴的虚拟现实领域，它最近又得到了来自 HTC 的鼎力支 https://t.co/jvYtoRzyIJ"
+            },
+            {
+                "id": 1082475804578070500,
+                "user_name": "cb0day",
+                "user_id": 1618923336,
+                "text": "HTC发布新款Vive Pro Eye VR头显 原生支持眼动追踪功能 除了宣布与 Mozilla 达成的预装 VR 浏览器合作，HTC 还在 CES 2019 上发布了新款虚拟现实头戴式装置，它就是原生支持眼动追踪功能的 Viv https://t.co/wDLkNXvDRG"
+            },
+            {
+                "id": 1082475387936899100,
+                "user_name": "prksandeep",
+                "user_id": 150164892,
+                "text": "RT @VeevenV: let rt = new Intl.RelativeTimeFormat('te', {numeric: 'auto'});\nrt.format(-2, 'day');\n➜ “మొన్న”\nrt.format(2, 'day');\n➜ “ఎల్లుం…"
+            },
+            {
+                "id": 1082474766282514400,
+                "user_name": "Muneer3DVR",
+                "user_id": 1068445061304803300,
+                "text": "RT @htcvive: We are also announcing a strategic partnership to bring a more seamless VR experience to our audience. We are partnering with…"
+            },
+            {
+                "id": 1082474708698681300,
+                "user_name": "sangeet259",
+                "user_id": 581811205,
+                "text": "RT @indygreg: I am no longer working at Mozilla. In fact, I'm not working anywhere! I blogged about seeking employment. Who's hiring? https…"
+            },
+            {
+                "id": 1082474407920988200,
+                "user_name": "schestowitz",
+                "user_id": 26603208,
+                "text": "Firefox 65 Beta 10 Testday, January 11th\n https://t.co/rA0m0S0FcT a chance to help #mozilla Corporation with #firefox"
+            },
+            {
+                "id": 1082474095579676700,
+                "user_name": "yasachy",
+                "user_id": 3288566943,
+                "text": "RT @CathyHackl: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset https://t.co/vguQJsm5bU #CeS20…"
+            },
+            {
+                "id": 1082473829765693400,
+                "user_name": "Social_Media_e7",
+                "user_id": 999923566035402800,
+                "text": "HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset https://t.co/3RWI3intLM"
+            },
+            {
+                "id": 1082473657727893500,
+                "user_name": "interdigitel",
+                "user_id": 785794437351825400,
+                "text": "https://t.co/bHtXIZqJ5x"
+            },
+            {
+                "id": 1082473357696630800,
+                "user_name": "qon4649",
+                "user_id": 1675076292,
+                "text": "【VBA プロパティ】 Selection https://t.co/9r5AVRl8Ll"
+            },
+            {
+                "id": 1082473272044793900,
+                "user_name": "canotun",
+                "user_id": 73957764,
+                "text": "mozillaのweb xrの方針はちょっとわしも思うとこある。webに求められるのは「安価で軽量かつお手軽」であるというとこで、仰々しいvr機器や重量級アプリを呼び出すようなapiは回避してほしい感じ"
+            },
+            {
+                "id": 1082472879994912800,
+                "user_name": "_30days30sites",
+                "user_id": 842956176958476300,
+                "text": "RT @Vivfiona: D1 of #100DaysOfCode: \n1. Reviewed HTML, started building my portfolio for the website - work in progress!\n2. Read through ht…"
+            },
+            {
+                "id": 1082472563186507800,
+                "user_name": "tomlap",
+                "user_id": 22826311,
+                "text": "RT @thevrara: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset. A competitor to Chrome for VR n…"
+            },
+            {
+                "id": 1082471543622516700,
+                "user_name": "schestowitz",
+                "user_id": 26603208,
+                "text": "#Mozilla #VR Blog: Navigation Study for #3DoF Devices https://t.co/UKcz9y27vl #freesw"
+            },
+            {
+                "id": 1082471035188973600,
+                "user_name": "ITEmpathy",
+                "user_id": 794282232701681700,
+                "text": "RT @verge: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset #CES2019 https://t.co/9eWAS2KOtv ht…"
+            },
+            {
+                "id": 1082469992044642300,
+                "user_name": "Ingolf_He",
+                "user_id": 883746245168300000,
+                "text": "@_Galas @gs00000000 @firefox It is pretty great - have you tried it lately? https://t.co/lLAliwxUhK"
+            },
+            {
+                "id": 1082469471690858500,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "Tooru Fujisawa  -  Report unhandled rejections in JS shell. r=jorendorff - https://t.co/6OOdqRsLu6... https://t.co/sk113vR9F8"
+            },
+            {
+                "id": 1082469222024794100,
+                "user_name": "jdseidel",
+                "user_id": 16709629,
+                "text": "RT @thevrara: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset. A competitor to Chrome for VR n…"
+            },
+            {
+                "id": 1082468996325224400,
+                "user_name": "thevrara",
+                "user_id": 4657147706,
+                "text": "HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset. A competitor to Chrom… https://t.co/mU7WUbr0Xi"
+            },
+            {
+                "id": 1082468334421995500,
+                "user_name": "atnd_kanto",
+                "user_id": 272283741,
+                "text": "[新着] 2019/01/26（土） 【第11回！】みんなで MDN を翻訳しよう！翻訳コミュニティ月例ミートアップ！ 2018年1月26日開催 https://t.co/hEqxsbqk2X"
+            },
+            {
+                "id": 1082467779976917000,
+                "user_name": "Fishburners",
+                "user_id": 254507180,
+                "text": "Our fireside chat with John O'Duinn is this Thursday! John worked as part at the US Government under the Obama Whit… https://t.co/chH9NsNxdO"
+            },
+            {
+                "id": 1082467142384009200,
+                "user_name": "negitoro2500",
+                "user_id": 1696388827,
+                "text": "RT @htcvive: and AWS to bring true web VR to the market. AWS developers will be able to create VR-optimized websites, even if they have min…"
+            },
+            {
+                "id": 1082467029443985400,
+                "user_name": "hikyaku",
+                "user_id": 8271792,
+                "text": "Mozilla、2019年はThunderbirdの高速化とGmail対応実施  | マイナビニュース https://t.co/pwmxPkhq04 #マイナビニュース"
+            },
+            {
+                "id": 1082466982711173100,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "Tooru Fujisawa  -  Call setBindingsAccessedDynamically if delete with name operand appears in BinAST. r=Yoric -… https://t.co/8hTqd2u7tO"
+            },
+            {
+                "id": 1082466980488233000,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "Tooru Fujisawa  - Part 2: Add ErrorReportMixin which implements error reporting methods, and make them available in… https://t.co/eHTeu0UJBs"
+            },
+            {
+                "id": 1082466978407817200,
+                "user_name": "FirefoxCommit",
+                "user_id": 2689714296,
+                "text": "Tooru Fujisawa  - Part 1: Use va_list* instead of va_list in ReportCompile{Error,Warning} parameter type. r=jwalden… https://t.co/ySdeFCYFPF"
+            },
+            {
+                "id": 1082466927971323900,
+                "user_name": "Renee7076",
+                "user_id": 817130986957901800,
+                "text": "RT @jsjoeio: TIL: How to check if DOM element is overflowed in JS\n\nelement.scrollHeight &gt; element.clientHeight\n\nscrollHeight includes conte…"
+            },
+            {
+                "id": 1082466617970192400,
+                "user_name": "rprimar",
+                "user_id": 136221945,
+                "text": "@mozilla_in_asia Saya pakai screenshot untuk merekam twit dan reply yang menarik #ScreenshotGo"
+            },
+            {
+                "id": 1082466444774912000,
+                "user_name": "ViveandChill",
+                "user_id": 880707657585360900,
+                "text": "RT @htcvive: We are also announcing a strategic partnership to bring a more seamless VR experience to our audience. We are partnering with…"
+            },
+            {
+                "id": 1082466084316340200,
+                "user_name": "neelgaganslg",
+                "user_id": 3163423831,
+                "text": "RT @htcvive: We are also announcing a strategic partnership to bring a more seamless VR experience to our audience. We are partnering with…"
+            },
+            {
+                "id": 1082465614843637800,
+                "user_name": "umitubame_bot",
+                "user_id": 270466637,
+                "text": "('e')つ https://t.co/C6AtnEvszB"
+            },
+            {
+                "id": 1082465581318598700,
+                "user_name": "ExpressGinga81",
+                "user_id": 741320774905040900,
+                "text": "RT @mozillajp: ウェブ技術に関するオープンソースドキュメントをみんなで翻訳する月例イベント、\n2019年最初の会を【1月26日(土) 13：00-18：00】にて開催します！🔥\n初めて参加する方も、常連のみなさんも、ぜひ奮ってご参加ください！\nhttps://t.…"
+            },
+            {
+                "id": 1082465522812420100,
+                "user_name": "infofuengirola",
+                "user_id": 2427941930,
+                "text": "\"Mozilla realizará un lavado de cara a su cliente de correo Thunderbird\" https://t.co/LuEQaijNcs"
+            },
+            {
+                "id": 1082465481024405500,
+                "user_name": "piro_or",
+                "user_id": 37968983,
+                "text": "RT @mozillajp: ウェブ技術に関するオープンソースドキュメントをみんなで翻訳する月例イベント、\n2019年最初の会を【1月26日(土) 13：00-18：00】にて開催します！🔥\n初めて参加する方も、常連のみなさんも、ぜひ奮ってご参加ください！\nhttps://t.…"
+            },
+            {
+                "id": 1082465300111454200,
+                "user_name": "mozillajp",
+                "user_id": 124439359,
+                "text": "ウェブ技術に関するオープンソースドキュメントをみんなで翻訳する月例イベント、\n2019年最初の会を【1月26日(土) 13：00-18：00】にて開催します！🔥\n初めて参加する方も、常連のみなさんも、ぜひ奮ってご参加ください！\nhttps://t.co/QbVIw4vYir"
+            },
+            {
+                "id": 1082465174546669600,
+                "user_name": "FLISoL_Acatlan",
+                "user_id": 623617908,
+                "text": "Opening government data, new life for Mozilla Labs, a bug bounty program, and more news: In this edition of our ope… https://t.co/Fdnb2Te4wi"
+            },
+            {
+                "id": 1082464906127933400,
+                "user_name": "azarashi1229",
+                "user_id": 214161231,
+                "text": "RT @yosuke_furukawa: かっこいい記事だった。 MozillaでRust書いてたSteve氏がFuchia書くと。 / “thank u, next” https://t.co/eUxuh7dud2"
+            },
+            {
+                "id": 1082464752289435600,
+                "user_name": "xicanayork",
+                "user_id": 1053294744,
+                "text": "RT @kitode: Internships at @mozilla / @firefox tech/comms/policy + jobs worldwide cc: @Berkeley_EECS @berkeleylaw @GirlGeekAcademy @BlackGi…"
+            },
+            {
+                "id": 1082464565651300400,
+                "user_name": "schestowitz",
+                "user_id": 26603208,
+                "text": "This Week In #mozilla #Servo 122 https://t.co/Z4viwfMMHS #firefox #freesw"
+            },
+            {
+                "id": 1082464375959703600,
+                "user_name": "Javier63624195",
+                "user_id": 1081338248457273300,
+                "text": "https://t.co/qEPPa0iHhp"
+            },
+            {
+                "id": 1082464332867354600,
+                "user_name": "DestinButcher",
+                "user_id": 1027468663,
+                "text": "RT @verge: HTC partners with Mozilla to bring Firefox’s virtual reality web browser to the Vive headset #CES2019 https://t.co/9eWAS2KOtv ht…"
+            },
+            {
+                "id": 1082464054336258000,
+                "user_name": "consultmonique",
+                "user_id": 709465486602346500,
+                "text": "RT @kitode: Internships at @mozilla / @firefox tech/comms/policy + jobs worldwide cc: @Berkeley_EECS @berkeleylaw @GirlGeekAcademy @BlackGi…"
+            },
+            {
+                "id": 1082463997163495400,
+                "user_name": "cawaicon",
+                "user_id": 1214864646,
+                "text": "ごめんなさい！文句なしのワンショット！https://t.co/vcbhODiVei"
+            },
+            {
+                "id": 1082463840019800000,
+                "user_name": "ikemenh",
+                "user_id": 998485909,
+                "text": "イケメン編集者☆https://t.co/BZeoi4UXv4"
+            },
+            {
+                "id": 1082463675947122700,
+                "user_name": "PrinceTJ6",
+                "user_id": 171578551,
+                "text": "RT @FidelityNews: Since 2014, @fidelitylabs has been experimenting with using #VirtualReality to help @Fidelity customers better visualize…"
+            },
+            {
+                "id": 1082463018020229100,
+                "user_name": "swight",
+                "user_id": 16062050,
+                "text": "RT @htcvive: and AWS to bring true web VR to the market. AWS developers will be able to create VR-optimized websites, even if they have min…"
+            },
+            {
+                "id": 1082462995610042400,
+                "user_name": "PrinceTJ6",
+                "user_id": 171578551,
+                "text": "RT @FidelityNews: Fidelity is the first company to demonstrate the possibilities of a new, immersive web browsing experience in virtual rea…"
+            },
+            {
+                "id": 1082462509498597400,
+                "user_name": "MBonifaz126",
+                "user_id": 802341626341445600,
+                "text": "RT @razvancaliman: If your 2019 goals include using Twitter in a calmer, more focused and intentional way, I built the Better Twitter exten…"
+            },
+            {
+                "id": 1082462463394791400,
+                "user_name": "BlackGirlsCode",
+                "user_id": 291814511,
+                "text": "RT @kitode: Internships at @mozilla / @firefox tech/comms/policy + jobs worldwide cc: @Berkeley_EECS @berkeleylaw @GirlGeekAcademy @BlackGi…"
+            },
+            {
+                "id": 1082462219781042200,
+                "user_name": "bregel",
+                "user_id": 14069701,
+                "text": "RT @marcysutton: It's axe extension release day! There are new versions for #a11y testing in Chrome &amp; Firefox, fixing some bugs and updatin…"
+            }
+        ]
+    }]
+}

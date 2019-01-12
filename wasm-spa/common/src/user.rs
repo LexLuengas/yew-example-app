@@ -47,9 +47,6 @@ fn decode_payload(payload_segment: &str) -> Result<JsonValue, Error> {
     ).map_err(Error::from)
 }
 
-
-
-
 fn user_has_role(storage: &mut StorageService, role: UserRole) -> bool {
     if let Ok(token) = restore_jwt(storage) {
         match extract_payload_from_jwt(&token) {
@@ -146,8 +143,6 @@ pub fn remove_jwt(storage_service: &mut StorageService) {
     storage_service.remove("JWT");
 }
 
-
-
 #[derive(Serialize, Deserialize)]
 pub enum LoginRequest {
     Logout,
@@ -171,7 +166,6 @@ pub struct LoginAgent {
 
 impl Transferable for LoginResponse {}
 impl Transferable for LoginRequest {}
-
 
 impl Agent for LoginAgent
 {
