@@ -69,6 +69,7 @@ pub struct Input {
     input_state: InputState,
     required: bool,
     placeholder: String,
+    #[allow(dead_code)]
     label: String,
     disabled: bool,
     is_password: bool,

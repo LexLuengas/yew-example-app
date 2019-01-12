@@ -92,9 +92,9 @@ impl Renderable<TweetList> for TweetList {
     fn view(&self) -> Html<Self> {
         fn forum_list_fn(tweets: &Vec<TweetData>) -> Html<TweetList> {
             html! {
-                    <ul class=("tweet-list"),>
-                        { for tweets.iter().map(TweetData::view) }
-                    </ul>
+                <ul class=("tweet-list"),>
+                    { for tweets.iter().map(TweetData::view) }
+                </ul>
             }
         };
         html! {
