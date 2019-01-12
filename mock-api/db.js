@@ -1,8 +1,11 @@
 var Twit = require('twit')
 const twit_config = require(__dirname + '/twitter_config.json')
 var express = require('express')
+var cors = require('cors')
 var app = express()
 const port = 8001
+
+app.use(cors())
 
 var T = new Twit(Object.assign(twit_config, {
 	timeout_ms: 60 * 1000,

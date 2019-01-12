@@ -1,8 +1,9 @@
 {
   "name": "mock-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API (mock) for wasm-spa",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,8 @@
   "devDependencies": {
     "json-server": "^0.14.2",
     "twit": "^2.2.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
   }
 }
