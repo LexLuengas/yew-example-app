@@ -1,3 +1,0 @@
-/Users/Alexis/Documents/dev/bthesis/emsdk-portable/emscripten/incoming_64bit_optimizer/CMakeFiles/rebuild_cache.dir
-/Users/Alexis/Documents/dev/bthesis/emsdk-portable/emscripten/incoming_64bit_optimizer/CMakeFiles/edit_cache.dir
-/Users/Alexis/Documents/dev/bthesis/emsdk-portable/emscripten/incoming_64bit_optimizer/CMakeFiles/optimizer.dir

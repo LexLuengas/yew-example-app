@@ -1,1 +1,0 @@
-cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/Users/Alexis/anaconda3/bin/python -DLLVM_TARGETS_TO_BUILD=X86;JSBackend -DLLVM_INCLUDE_EXAMPLES=OFF -DCLANG_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_TESTS=OFF -DCLANG_INCLUDE_TESTS=OFF -DLLVM_ENABLE_ASSERTIONS=OFF /Users/Alexis/Documents/dev/bthesis/emsdk-portable/clang/fastcomp/src

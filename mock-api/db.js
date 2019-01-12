@@ -1,5 +1,5 @@
 var Twit = require('twit')
-const twit_config = require(__dirname + '/twit_config.json')
+const twit_config = require(__dirname + '/twitter_config.json')
 var express = require('express')
 var app = express()
 const port = 8001
