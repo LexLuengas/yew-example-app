@@ -4,3 +4,4 @@ mock-api/twit_config.json
 .DS_Store
 emsdk-portable/
 wasm-spa/target/
+node_modules/
