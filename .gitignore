@@ -5,3 +5,4 @@ mock-api/twit_config.json
 emsdk-portable/
 wasm-spa/target/
 node_modules/
+yew-router-example/
