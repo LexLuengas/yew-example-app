@@ -1,6 +1,6 @@
 target/
 .vscode/
-mock-api/twit_config.json
+mock-api/twitter_config.json
 .DS_Store
 emsdk-portable/
 wasm-spa/target/
