@@ -152,7 +152,7 @@ impl<T> Loadable<T> {
     {
         self.custom_view(
             empty_vdom_node(),
-            LoadingType::Fidget { diameter: 100 }.view(),
+            LoadingType::Disc { diameter: 100 }.view(),
             render_fn,
             Self::failed,
         )

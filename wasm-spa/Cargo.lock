@@ -343,6 +343,16 @@ version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "smart-default"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "proc-macro2 0.4.24 (registry+https://github.com/rust-lang/crates.io-index)",
+ "quote 0.6.10 (registry+https://github.com/rust-lang/crates.io-index)",
+ "syn 0.15.24 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "stdweb"
 version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -418,6 +428,7 @@ dependencies = [
  "log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.84 (registry+https://github.com/rust-lang/crates.io-index)",
+ "smart-default 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "util 0.1.0",
  "wire 0.1.0",
  "yew 0.5.0 (git+https://github.com/DenisKolodin/yew?rev=49319b8c02a8eeb15ed4c8a8761f83adcee856b0)",
@@ -591,6 +602,7 @@ dependencies = [
 "checksum serde_json 1.0.34 (registry+https://github.com/rust-lang/crates.io-index)" = "bdf540260cfee6da923831f4776ddc495ada940c30117977c70f1313a6130545"
 "checksum sha1 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "2579985fda508104f7587689507983eadd6a6e84dd35d6d115361f530916fa0d"
 "checksum slab 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = "5f9776d6b986f77b35c6cf846c11ad986ff128fe0b2b63a3628e3755e8d3102d"
+"checksum smart-default 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "70e5c02ddada494809d36623d38050f3bd63446750abd21e7e13c01aa3a79b69"
 "checksum stdweb 0.4.13 (registry+https://github.com/rust-lang/crates.io-index)" = "461e7f2e33670b1c33f1ea22bb2f86de6136fabd0c4d27d167ed425c231143ca"
 "checksum stdweb-derive 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0e21ebd9179de08f2300a65454268a17ea3de204627458588c84319c4def3930"
 "checksum stdweb-internal-macros 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "432465093692af7379dcd196ce4be398c906958d91b412fff9102a66238d6f26"

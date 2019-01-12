@@ -61,7 +61,7 @@ where
             Uploadable::Uploading(ref t) => html! {
                 <div class=("loading-container", "full-height","full-width"),>
                     <div class="loading-overlay",>
-                        {LoadingType::Fidget{diameter: 100}.view()}
+                        {LoadingType::Disc{diameter: 100}.view()}
                     </div>
                     {render_fn(t)}
                 </div>

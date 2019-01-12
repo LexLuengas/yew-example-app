@@ -14,7 +14,7 @@ where
     Rolling {
         diameter: usize,
     },
-    Fidget {
+    Disc {
         diameter: usize,
     },
     #[allow(dead_code)]
@@ -37,12 +37,12 @@ where
                     </div>
                 }
             }
-            LoadingType::Fidget { diameter } => {
+            LoadingType::Disc { diameter } => {
                 let style = format!("width: {}px; height: {}px;", diameter, diameter);
                 html! {
                     <div class=("flexbox-center", "full-height", "full-width"),>
                         <div style=style,>
-                            {LoadingIcon(FIDGET_SVG).view()}
+                            {LoadingIcon(DISC_SVG).view()}
                         </div>
                     </div>
                 }
@@ -55,7 +55,7 @@ where
 
 /// This svg indicates loading
 const ROLLING_SVG: &str = include_str!("../inlined_assets/LoadingRoll.svg");
-const FIDGET_SVG: &str = include_str!("../inlined_assets/Fidget.svg");
+const DISC_SVG: &str = include_str!("../inlined_assets/LoadingDisc.svg");
 
 struct LoadingIcon(&'static str);
 

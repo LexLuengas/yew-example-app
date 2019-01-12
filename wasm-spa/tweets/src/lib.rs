@@ -7,6 +7,8 @@ extern crate failure;
 #[macro_use]
 extern crate yew;
 extern crate yew_router;
+#[macro_use]
+extern crate smart_default;
 
 extern crate common;
 extern crate util;

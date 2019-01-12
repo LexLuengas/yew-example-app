@@ -4,16 +4,14 @@ use common::fetch::HttpMethod;
 
 #[derive(Serialize, Deserialize)]
 pub enum TwitterRequest {
-    Test,
-    Search { keyword: String },
+    Search { query: String },
 }
 
 impl FetchRequest for TwitterRequest {
     fn resolve_path(&self) -> String {
         use self::TwitterRequest::*;
         match *self {
-            Test => "test".into(),
-            Search { ref keyword } => format!("keyword/{}", keyword),
+            Search { ref query } => format!("keyword/{}", query),
         }
     }
     fn resolve_auth(&self) -> Auth {
