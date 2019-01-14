@@ -23,3 +23,12 @@ body {
     align-items: safe center;
     justify-content: safe center;
 }
+
+nav.navbar.navbar-main {
+    &.is-disabled {
+        .navbar-start .navbar-item {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+    }
+}

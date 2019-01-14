@@ -11,19 +11,26 @@ use stdweb::unstable::TryInto;
 
 pub struct Model {
     is_expanded: bool,
+    is_active: bool,
 }
 
 pub enum Msg {
     Toggle,
 }
 
+#[derive(Clone, PartialEq, Default)]
+pub struct Props {
+    pub is_active: bool,
+}
+
 impl Component for Model {
     type Message = Msg;
-    type Properties = ();
+    type Properties = Props;
 
-    fn create(_props: Self::Properties, _link: ComponentLink<Self>) -> Self {
+    fn create(props: Self::Properties, _link: ComponentLink<Self>) -> Self {
         Model {
             is_expanded: false,
+            is_active: props.is_active,
         }
     }
 
@@ -48,12 +55,18 @@ impl Component for Model {
         }
         false
     }
+
+    fn change(&mut self, props: Self::Properties) -> ShouldRender {
+        self.is_active = props.is_active;
+        true
+    }
 }
 
 impl Renderable<Model> for Model {
     fn view(&self) -> Html<Self> {
+        let nav_class = format!("navbar navbar-main is-dark is-fixed-top {}", if !self.is_active { "is-disabled" } else { "" });
         html! {
-            <nav class="navbar is-dark is-fixed-top",>
+            <nav class=nav_class,>
                 <div class="container",>
                     <div class="navbar-brand",>
                         <a class="navbar-item brand-text", href="../",>

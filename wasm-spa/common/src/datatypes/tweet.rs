@@ -1,7 +1,7 @@
 use identifiers::tweet::TweetUuid;
 use wire::tweet::TwitterResponse;
 
-#[derive(Default, Clone, Debug, PartialEq)]
+#[derive(Default, Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct TweetData {
     pub uuid: TweetUuid,
     pub user_name: String,

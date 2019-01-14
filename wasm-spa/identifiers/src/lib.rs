@@ -3,7 +3,6 @@
 //! Conditionally, this crate can be compiled with rocket support,
 //! allowing the NewTypes to be extracted from query params and paths.
 
-
 extern crate uuid;
 
 #[macro_use]
@@ -11,3 +10,4 @@ extern crate serde_derive;
 
 pub mod user;
 pub mod tweet;
+pub mod keyword;

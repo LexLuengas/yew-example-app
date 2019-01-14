@@ -4,6 +4,11 @@ version = "0.1.0"
 authors = ["Alexis Luengas <alexis.luengas@gmail.com>"]
 
 [dependencies]
-yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
 log = "0.4"
 failure = "0.1"
+stdweb = "0.4.13"
+yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
+
+common = { path = "../common" }
+util = { path = "../util" }
+identifiers = { path = "../identifiers" }

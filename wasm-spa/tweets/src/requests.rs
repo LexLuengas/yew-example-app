@@ -1,3 +1,4 @@
+use serde_derive::{Serialize, Deserialize};
 use common::fetch::Auth;
 use common::fetch::FetchRequest;
 use common::fetch::HttpMethod;

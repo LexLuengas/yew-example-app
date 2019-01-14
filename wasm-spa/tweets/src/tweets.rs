@@ -1,28 +1,37 @@
+use log::{info, warn};
+use smart_default::SmartDefault;
+use serde_derive::{Serialize, Deserialize};
 use yew::prelude::*;
+use yew::{html, html_impl};
 use yew_router::prelude::*;
 
 use crate::requests::TwitterRequest;
 use common::{
+    datatypes::keyword::Keyword,
     datatypes::tweet::TweetData,
     fetch::{FetchResponse, Networking},
 };
 use util::loadable::Loadable;
 use wire::tweet::TwitterResponse;
 
-
 pub struct TweetList {
     tweets: Loadable<Vec<TweetData>>,
+    keywords: Vec<Keyword>,
+    _router: Box<Bridge<RouterAgent>>,
     networking: Networking,
     link: ComponentLink<TweetList>,
 }
 
 #[derive(Clone, PartialEq, Default)]
-pub struct TweetListProps;
+pub struct TweetListProps {
+    pub keywords: Vec<Keyword>,
+}
 
-#[derive(SmartDefault)]
+#[derive(SmartDefault, Serialize, Deserialize, Clone)]
 pub enum Msg {
     HandleGetTweetListResponse(FetchResponse<Vec<TweetData>>),
-    FetchTweets(String),
+    UpdateKeywords(Vec<Keyword>),
+    HandleRoute(Route),
     #[default]
     NoOp,
 }
@@ -31,16 +40,20 @@ impl Component for TweetList {
     type Message = Msg;
     type Properties = TweetListProps;
 
-    fn create(_: Self::Properties, link: ComponentLink<Self>) -> Self {
-        let tweet_list = TweetList {
+    fn create(props: Self::Properties, link: ComponentLink<Self>) -> Self {
+        let callback = link.send_back(|route: Route| Msg::HandleRoute(route));
+        let mut _router = RouterAgent::bridge(callback);
+        _router.send(RouterRequest::GetCurrentRoute);
+
+        let networking = Networking::new(&link);
+
+        TweetList {
             tweets: Loadable::default(),
-            networking: Networking::new(&link),
+            keywords: props.keywords,
+            _router,
+            networking,
             link,
-        };
-
-        // tweet_list.search();
-
-        tweet_list
+        }
     }
 
     fn update(&mut self, msg: Self::Message) -> ShouldRender {
@@ -50,16 +63,24 @@ impl Component for TweetList {
                 self.tweets = Loadable::from_fetch_response(response);
                 true
             }
-            FetchTweets(query) => {
-                self.search(query);
+            UpdateKeywords(kws) => {
+                self.keywords = kws;
+                info!("Received! {}", self.keywords.len());
+                true
+            }
+            HandleRoute(route) => {
+                if let Some(query) = route.query {
+                    self.search(query);
+                }
                 true
             }
             NoOp => false,
         }
     }
 
-    fn change(&mut self, _props: Self::Properties) -> ShouldRender {
-        false
+    fn change(&mut self, props: Self::Properties) -> ShouldRender {
+        self.keywords = props.keywords;
+        true
     }
 }
 
@@ -101,27 +122,12 @@ impl Renderable<TweetList> for TweetData {
     }
 }
 
-impl Renderable<TweetList> for TweetList {    
+impl Renderable<TweetList> for TweetList {
     fn view(&self) -> Html<Self> {
         html! {
             <div>
                 { self.tweets.default_view(Self::forum_list_fn) }
             </div>
         }
-    }
-}
-
-impl Routable for TweetList {
-    fn resolve_props(route: &Route) -> Option<<Self as Component>::Properties> {
-        let first_segment = route.path_segments.get(0).unwrap();
-        if "list" == first_segment.as_str() {
-            Some(TweetListProps)
-        } else {
-            None
-        }
-    }
-
-    fn will_try_to_route(route: &Route) -> bool {
-        route.path_segments.get(0).is_some()
     }
 }

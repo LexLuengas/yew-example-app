@@ -12,6 +12,7 @@ extern crate chrono;
 extern crate base64;
 #[macro_use]
 extern crate log;
+extern crate url;
 
 extern crate wire;
 extern crate identifiers;
@@ -20,3 +21,4 @@ extern crate yew_router;
 pub mod fetch;
 pub mod user;
 pub mod datatypes;
+pub mod directional;
