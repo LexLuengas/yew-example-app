@@ -1,5 +1,5 @@
 {
-    "keyword-webassembly": [{
+    "search-webassembly": [{
         "rate-limit-remaining": "176",
         "rate-limit-reset": "1546921914",
         "tweets": [
@@ -605,7 +605,7 @@
             }
         ]
     }],
-    "keyword-rust": [{
+    "search-rust": [{
         "rate-limit-remaining": "175",
         "rate-limit-reset": "1546921914",
         "tweets": [
@@ -1193,7 +1193,7 @@
             }
         ]
     }],
-    "keyword-mozilla": [{
+    "search-mozilla": [{
         "rate-limit-remaining": "174",
         "rate-limit-reset": "1546921914",
         "tweets": [

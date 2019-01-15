@@ -1,17 +1,10 @@
-use uuid::{
-    Uuid,
-    ParseError
-};
-use std::{
-    fmt::{
-        Display,
-        Formatter,
-        Result as FormatResult
-    }
-};
+use serde_derive::{Deserialize, Serialize};
+use std::fmt::{Display, Formatter, Result as FormatResult};
+use uuid::{ParseError, Uuid};
 
-
-#[derive(Deserialize, Serialize, Clone, Copy, Debug, PartialEq, Default, Hash, Eq, PartialOrd, Ord)]
+#[derive(
+    Deserialize, Serialize, Clone, Copy, Debug, PartialEq, Default, Hash, Eq, PartialOrd, Ord,
+)]
 pub struct UserUuid(pub Uuid);
 
 impl UserUuid {

@@ -1,4 +1,4 @@
-use log::{info, warn};
+use log::warn;
 use serde_derive::{Deserialize, Serialize};
 use smart_default::SmartDefault;
 use yew::prelude::*;
@@ -30,7 +30,6 @@ pub struct TweetListProps {
 #[derive(SmartDefault, Serialize, Deserialize, Clone)]
 pub enum Msg {
     HandleGetTweetListResponse(FetchResponse<Vec<TweetData>>),
-    UpdateKeywords(Vec<Keyword>),
     HandleRoute(Route),
     #[default]
     NoOp,
@@ -61,11 +60,6 @@ impl Component for TweetList {
         match msg {
             HandleGetTweetListResponse(response) => {
                 self.tweets = Loadable::from_fetch_response(response);
-                true
-            }
-            UpdateKeywords(kws) => {
-                self.keywords = kws;
-                info!("Received! {}", self.keywords.len());
                 true
             }
             HandleRoute(route) => {

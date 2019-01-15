@@ -1,5 +1,5 @@
 {
-  "name": "mock-api",
+  "name": "api",
   "version": "1.0.0",
   "description": "API (mock) for wasm-spa",
   "main": "index.js",

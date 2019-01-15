@@ -1,7 +1,7 @@
 [package]
 name = "util"
 version = "0.1.0"
-authors = ["Henry Zimmerman <zimhen7@gmail.com>"]
+authors = ["Alexis Luengas <al096@hdm-stuttgart.de>", "Henry Zimmerman <zimhen7@gmail.com>"]
 
 [dependencies]
 common = {path = "../common"}
