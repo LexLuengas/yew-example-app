@@ -1,6 +1,6 @@
 use log::{info, warn};
+use serde_derive::{Deserialize, Serialize};
 use smart_default::SmartDefault;
-use serde_derive::{Serialize, Deserialize};
 use yew::prelude::*;
 use yew::{html, html_impl};
 use yew_router::prelude::*;
@@ -12,7 +12,7 @@ use common::{
     fetch::{FetchResponse, Networking},
 };
 use util::loadable::Loadable;
-use wire::tweet::TwitterResponse;
+use wire::tweet::FullTwitterResponse;
 
 pub struct TweetList {
     tweets: Loadable<Vec<TweetData>>,
@@ -70,6 +70,7 @@ impl Component for TweetList {
             }
             HandleRoute(route) => {
                 if let Some(query) = route.query {
+                    let query: String = query.trim_start_matches("q=").to_string();
                     self.search(query);
                 }
                 true
@@ -89,9 +90,9 @@ impl TweetList {
         warn!("Searching for tweets");
         self.networking.fetch(
             &TwitterRequest::Search { query },
-            |r: FetchResponse<Vec<TwitterResponse>>| {
+            |r: FetchResponse<FullTwitterResponse>| {
                 Msg::HandleGetTweetListResponse(
-                    r.map(|x: Vec<TwitterResponse>| x.into_iter().map(TweetData::from).collect()),
+                    r.map(|x| x.tweets.into_iter().map(TweetData::from).collect()),
                 )
             },
             &self.link,

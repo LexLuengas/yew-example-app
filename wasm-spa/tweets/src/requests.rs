@@ -12,7 +12,7 @@ impl FetchRequest for TwitterRequest {
     fn resolve_path(&self) -> String {
         use self::TwitterRequest::*;
         match *self {
-            Search { ref query } => format!("keyword/{}", query),
+            Search { ref query } => format!("search/{}", query),
         }
     }
     fn resolve_auth(&self) -> Auth {

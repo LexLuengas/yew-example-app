@@ -1,17 +1,14 @@
-use identifiers::tweet::TweetUuid;
-
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct TwitterResponse {
-    pub uuid: TweetUuid,
-    pub user_name: String,
-    pub text: String,
+pub struct FullTwitterResponse {
+    pub rate_limit_remaining: u32,
+    pub rate_limit_reset: u32,
+    pub tweets: Vec<TwitterResponse>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct FullTwitterResponse {
-    pub uuid: TweetUuid,
+pub struct TwitterResponse {
+    pub id: String,
     pub user_name: String,
+    pub user_id: String,
     pub text: String,
-    pub locked: bool,
-    pub banned: bool,
 }

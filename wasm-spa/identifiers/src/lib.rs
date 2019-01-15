@@ -9,5 +9,4 @@ extern crate uuid;
 extern crate serde_derive;
 
 pub mod user;
-pub mod tweet;
 pub mod keyword;

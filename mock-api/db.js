@@ -25,20 +25,20 @@ app.get('/test', (req, res) => {
 	res.send({'message': 'Success!'})
 })
 
-app.get('/keyword/:keyword', function (req, res) {
-	if (req.params.keyword) {
+app.get('/search/:query', function (req, res) {
+	if (req.params.query) {
 		T.get('search/tweets', {
-			q: req.params.keyword,
+			q: req.params.query,
 			count: 100
 		}, function (err, data, response) {
 			res.send({
-				"rate-limit-remaining": response.headers["x-rate-limit-remaining"],
-				"rate-limit-reset": response.headers["x-rate-limit-reset"],
+				"rate_limit_remaining": parseInt(response.headers["x-rate-limit-remaining"]),
+				"rate_limit_reset": parseInt(response.headers["x-rate-limit-reset"]),
 				"tweets": data.statuses.map(t => {
 					return {
-						id: t.id,
+						id: t.id_str,
 						user_name: t.user.screen_name,
-						user_id: t.user.id,
+						user_id: t.user.id_str,
 						text: t.text
 					}
 				})
