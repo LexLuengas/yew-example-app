@@ -1,4 +1,4 @@
-use log::warn;
+use log::{info, warn};
 use serde_derive::{Deserialize, Serialize};
 use smart_default::SmartDefault;
 use yew::prelude::*;
@@ -12,6 +12,7 @@ use common::{
     fetch::{FetchResponse, Networking},
 };
 use util::loadable::Loadable;
+use util::{columns, column};
 use wire::tweet::FullTwitterResponse;
 
 pub struct TweetList {
@@ -93,11 +94,15 @@ impl TweetList {
         );
     }
 
-    fn forum_list_fn(tweets: &Vec<TweetData>) -> Html<TweetList> {
+    fn forum_list_fn(_tweets: &Vec<TweetData>) -> Html<TweetList> {
+        let columns = columns![("test", "asda")];
         html! {
-            <ul class=("tweet-list"),>
-                { for tweets.iter().map(TweetData::view) }
-            </ul>
+            <div>
+                // <Table: columns=,>
+            </div>
+            // <ul class=("tweet-list"),>
+            //     { for tweets.iter().map(TweetData::view) }
+            // </ul>
         }
     }
 }

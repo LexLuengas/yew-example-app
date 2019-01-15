@@ -4,7 +4,11 @@ version = "0.1.0"
 authors = ["Alexis Luengas <al096@hdm-stuttgart.de>", "Henry Zimmerman <zimhen7@gmail.com>"]
 
 [dependencies]
-common = {path = "../common"}
+serde = "1.0.84"
+serde_derive = "1.0.84"
+serde-value = "0.5.3"
+smart-default = "0.3.0"
+common = { path = "../common" }
 yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
 stdweb = "0.4.2"
 pulldown-cmark = { git = "https://github.com/google/pulldown-cmark", rev = "c1ac9123f1653dc774403634696f848ffecbb01c" }
