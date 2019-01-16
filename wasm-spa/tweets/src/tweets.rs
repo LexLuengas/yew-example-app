@@ -1,19 +1,16 @@
-use log::{info, warn};
 use serde_derive::{Deserialize, Serialize};
 use smart_default::SmartDefault;
 use yew::prelude::*;
 use yew::{html, html_impl};
 use yew_router::prelude::*;
 
-use crate::requests::TwitterRequest;
-use common::{
-    datatypes::keyword::Keyword,
-    datatypes::tweet::TweetData,
-    fetch::{FetchResponse, Networking},
-};
+use common::{datatypes::keyword::Keyword, datatypes::tweet::TweetData};
+use util::fetch::{FetchResponse, Networking};
 use util::loadable::Loadable;
-use util::{columns, column};
+use util::{column, columns, table::Table};
 use wire::tweet::FullTwitterResponse;
+
+use crate::requests::TwitterRequest;
 
 pub struct TweetList {
     tweets: Loadable<Vec<TweetData>>,
@@ -82,42 +79,19 @@ impl Component for TweetList {
 
 impl TweetList {
     fn search(&mut self, query: String) {
-        warn!("Searching for tweets");
         self.networking.fetch(
             &TwitterRequest::Search { query },
             |r: FetchResponse<FullTwitterResponse>| {
-                Msg::HandleGetTweetListResponse(
-                    r.map(|x| x.tweets.into_iter().map(TweetData::from).collect()),
-                )
+                Msg::HandleGetTweetListResponse(r.map(|x| x.into()))
             },
             &self.link,
         );
     }
 
-    fn forum_list_fn(_tweets: &Vec<TweetData>) -> Html<TweetList> {
-        let columns = columns![("test", "asda")];
+    fn view_tweets_table(tweets: &Vec<TweetData>) -> Html<TweetList> {
+        let columns = columns![("user_name", "User")("text", "Tweet")];
         html! {
-            <div>
-                // <Table: columns=,>
-            </div>
-            // <ul class=("tweet-list"),>
-            //     { for tweets.iter().map(TweetData::view) }
-            // </ul>
-        }
-    }
-}
-
-impl Renderable<TweetList> for TweetData {
-    fn view(&self) -> Html<TweetList> {
-        html! {
-            <li class="tweet-list-element",>
-                <div>
-                    // <RouterLink: text=&self.title, route=route!("forum/{}",self.uuid), />
-                </div>
-                <div>
-                    { &self.text }
-                </div>
-            </li>
+            <Table<TweetData>: columns=columns, data=tweets,/>
         }
     }
 }
@@ -125,8 +99,8 @@ impl Renderable<TweetList> for TweetData {
 impl Renderable<TweetList> for TweetList {
     fn view(&self) -> Html<Self> {
         html! {
-            <div>
-                { self.tweets.default_view(Self::forum_list_fn) }
+            <div class="tweet-list",>
+                { self.tweets.default_view(Self::view_tweets_table) }
             </div>
         }
     }

@@ -1,6 +1,5 @@
 use identifiers::keyword::KeywordUuid;
-use url::form_urlencoded::parse;
-use yew_router::prelude::*;
+use url::form_urlencoded::{parse, byte_serialize};
 
 #[derive(Default, Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct Keyword {
@@ -19,9 +18,8 @@ impl From<&str> for Keyword {
     }
 }
 
-pub fn keywords_from_route(route: &Route) -> Vec<Keyword> {
-    let keywords_string: String = route.query.clone().unwrap_or_default();
-    let keywords_string = keywords_string.trim_start_matches("q=");
+pub fn keywords_from_query(query: String) -> Vec<Keyword> {
+    let keywords_string = query.trim_start_matches("q=");
     let keywords_string: String = parse(keywords_string.as_bytes())
         .map(|(key, val)| [key, val].concat())
         .collect();
@@ -30,3 +28,16 @@ pub fn keywords_from_route(route: &Route) -> Vec<Keyword> {
         .map(|s| Keyword::from(s))
         .collect()
 }
+
+pub fn query_from_keywords(keywords: &Vec<Keyword>) -> String {
+        let mut query: String = keywords
+            .clone()
+            .into_iter()
+            .map(|k| k.query)
+            .collect::<Vec<String>>()
+            .join(" OR ");
+        // Always filter out retweets 
+        query.push_str(" -filter:retweets");
+        let urlencoded: String = byte_serialize(&query.as_bytes()).collect();
+        format!("q={}", urlencoded)
+    }

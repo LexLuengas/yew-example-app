@@ -2,8 +2,7 @@ use yew::prelude::*;
 use serde::Serialize;
 
 pub trait TableData: 'static + Default + Clone + PartialEq + Serialize {
-    fn view_data(&self) -> Html<Table<Self>>;
-    fn get_field_as_html(&self, field_name: &str) -> &str;
+    fn get_field_as_html(&self, field_name: &str) -> Html<Table<Self>>;
 }
 // impl<T: 'static + Default + Clone + PartialEq + Serialize> TableData for T {}
 
@@ -81,7 +80,7 @@ impl<T> Renderable<Table<T>> for Column where T: TableData {
 }
 
 impl<T> Table<T> where T: TableData {
-    fn wrap_in_td(content: &str) -> Html<Table<T>> {
+    fn wrap_in_td(content: Html<Table<T>>) -> Html<Table<T>> {
             html! {
                 <td>{ content }</td>
             }

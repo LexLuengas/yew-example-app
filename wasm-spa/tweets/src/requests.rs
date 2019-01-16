@@ -1,7 +1,5 @@
 use serde_derive::{Serialize, Deserialize};
-use common::fetch::Auth;
-use common::fetch::FetchRequest;
-use common::fetch::HttpMethod;
+use util::fetch::{Auth, FetchRequest, HttpMethod};
 
 #[derive(Serialize, Deserialize)]
 pub enum TwitterRequest {

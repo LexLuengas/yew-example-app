@@ -1,4 +1,4 @@
-use common::fetch::FetchResponse;
+use fetch::FetchResponse;
 use loading::LoadingType;
 use std::fmt::Debug;
 use std::fmt::Formatter;

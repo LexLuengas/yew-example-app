@@ -1,9 +1,8 @@
-use url::form_urlencoded::byte_serialize;
 use yew::prelude::*;
 use yew_router::prelude::*;
 
 use crate::instructions::Model as Instructions;
-use common::datatypes::keyword::Keyword;
+use common::datatypes::keyword::{Keyword, query_from_keywords};
 use header::Model as Header;
 use header_input::{Model as HeaderInput, Msg as HeaderInputMsg};
 use identifiers::keyword::KeywordUuid;
@@ -69,14 +68,14 @@ impl Component for Model {
             }
             ClearKeywords => {
                 self.keywords.clear();
-                self.router.send(RouterRequest::ReplaceRoute(route!("/")));
+                self.router.send(RouterRequest::ChangeRoute(route!("/")));
             }
             RemoveKeyword(uuid) => {
                 // UUID is assumed to exist
                 let index = self.keywords.iter().position(|i| i.uuid == uuid).unwrap();
                 self.keywords.remove(index);
                 if self.keywords.is_empty() {
-                    self.router.send(RouterRequest::ReplaceRoute(route!("/")));
+                    self.router.send(RouterRequest::ChangeRoute(route!("/")));
                 } else {
                     let new_route = self.update_route();
                     self.router.send(RouterRequest::ChangeRoute(new_route));
@@ -100,21 +99,9 @@ impl Component for Model {
 }
 
 impl Model {
-    fn query_from_keywords(&self) -> String {
-        let query = self
-            .keywords
-            .clone()
-            .into_iter()
-            .map(|k| k.query)
-            .collect::<Vec<String>>()
-            .join(" OR ");
-        let urlencoded: String = byte_serialize(&query.as_bytes()).collect();
-        format!("q={}", urlencoded)
-    }
-
     fn update_route(&self) -> Route {
         Route {
-            query: Some(self.query_from_keywords()),
+            query: Some(query_from_keywords(&self.keywords)),
             ..self.current_route.clone()
         }
     }

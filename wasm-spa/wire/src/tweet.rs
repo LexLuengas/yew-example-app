@@ -12,3 +12,9 @@ pub struct TwitterResponse {
     pub user_id: String,
     pub text: String,
 }
+
+impl<T> Into<Vec<T>> for FullTwitterResponse where T: From<TwitterResponse> {
+    fn into(self) -> Vec<T> {
+        self.tweets.into_iter().map(T::from).collect()
+    }
+}

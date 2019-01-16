@@ -2,47 +2,41 @@ use std::collections::HashSet;
 use std::collections::VecDeque;
 use yew::prelude::worker::*;
 
-pub enum Msg {
-
-}
+pub enum Msg {}
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
-pub enum Notification {
+pub enum Notification {}
 
-}
+impl Transferable for Notification {}
 
 pub struct NotificationSink {
-    repository: Box<Bridge<NotificationRepository>>
-
+    repository: Box<Bridge<NotificationRepository>>,
 }
 
 impl Agent for NotificationSink {
     type Reach = Context;
     type Message = ();
     type Input = Notification;
-    type Output = ();
+    type Output = Notification;
 
     fn create(link: AgentLink<Self>) -> Self {
         let callback = link.send_back(|_| ());
         NotificationSink {
-            repository: NotificationRepository::bridge(callback)
+            repository: NotificationRepository::bridge(callback),
         }
-
     }
 
-    fn update(&mut self, msg: Self::Message) {
-    }
+    fn update(&mut self, _msg: Self::Message) {}
 
-    fn handle(&mut self, request: Self::Input, who: HandlerId) {
+    fn handle(&mut self, request: Self::Input, _who: HandlerId) {
         self.repository.send(request)
     }
 }
 
-
 pub struct NotificationRepository {
     link: AgentLink<NotificationRepository>,
     subscribers: HashSet<HandlerId>,
-    history: VecDeque<Notification>
+    history: VecDeque<Notification>,
 }
 
 impl Agent for NotificationRepository {
@@ -55,16 +49,14 @@ impl Agent for NotificationRepository {
         NotificationRepository {
             link,
             subscribers: HashSet::new(),
-            history: VecDeque::new()
+            history: VecDeque::new(),
         }
     }
 
-    fn update(&mut self, msg: Self::Message) {
+    fn update(&mut self, _msg: Self::Message) {}
 
-    }
-
-    fn handle(&mut self, notification: Self::Input, who: HandlerId) {
-        self.history.push_back(notification);
+    fn handle(&mut self, notification: Self::Input, _who: HandlerId) {
+        self.history.push_back(notification.clone());
         for sub in self.subscribers.iter() {
             self.link.response(*sub, notification.clone());
         }

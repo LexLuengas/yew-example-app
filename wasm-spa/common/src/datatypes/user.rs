@@ -1,4 +1,3 @@
-
 use wire::user::*;
 use identifiers::user::UserUuid;
 
