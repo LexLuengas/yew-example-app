@@ -80,7 +80,7 @@ impl Renderable<Model> for Model {
                     </div>
                     <div id="navMenu", class="navbar-menu",>
                         <div class="navbar-start",>
-                            <RouterLink: text=String::from("List"), route=Route::parse("/list"), class="navbar-item", />
+                            <RouterLink: text=String::from("Tweets"), route=Route::parse("/list"), class="navbar-item", />
                         </div>
                     </div>
                 </div>
