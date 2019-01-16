@@ -9,7 +9,6 @@ use yew::prelude::*;
 use yew::prelude::worker::*;
 use std::collections::HashSet;
 
-
 /// A NewType to prevent users from subverting the pattern and directly sending messages to receivers.
 #[derive(Serialize, Deserialize)]
 pub struct DirectionalTransport<T>(T);
@@ -21,8 +20,6 @@ impl <'a, T> Transferable for DirectionalTransport<T>
 #[derive(Serialize, Deserialize)]
 pub struct Void;
 impl Transferable for Void {}
-
-
 
 pub struct Sender<T>(Box<Bridge<SenderImpl<T>>>) where T: Transferable + Clone + 'static;
 
@@ -60,7 +57,6 @@ struct SenderImpl<T> where T: Transferable + Clone + 'static
     receiver: Box<Bridge<ReceiverImpl<T>>>
 }
 
-
 impl<T> Agent for SenderImpl<T> where T: Transferable + Clone  + 'static
 {
     type Reach = Context;
@@ -86,9 +82,6 @@ impl<T> Agent for SenderImpl<T> where T: Transferable + Clone  + 'static
     }
 }
 
-
-
-
 pub struct Receiver<T>(Box<Bridge<ReceiverImpl<T>>>) where T: Transferable + Clone + 'static;
 
 impl <T> Receiver<T> where T: Transferable + Clone + 'static {
@@ -112,9 +105,6 @@ impl <T> Receiver<T> where T: Transferable + Clone + 'static {
         )
     }
 }
-
-
-
 
 struct ReceiverImpl<T> where T: Transferable + Clone + 'static
 {

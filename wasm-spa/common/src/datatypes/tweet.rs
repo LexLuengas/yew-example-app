@@ -1,4 +1,4 @@
-use wire::tweet::{FullTwitterResponse, TwitterResponse};
+use wire::tweet::TwitterResponse;
 use util::table::{Table, TableData};
 use yew::prelude::*;
 

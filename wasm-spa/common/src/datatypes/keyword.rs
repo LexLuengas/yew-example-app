@@ -30,14 +30,12 @@ pub fn keywords_from_query(query: String) -> Vec<Keyword> {
 }
 
 pub fn query_from_keywords(keywords: &Vec<Keyword>) -> String {
-        let mut query: String = keywords
+        let query: String = keywords
             .clone()
             .into_iter()
             .map(|k| k.query)
             .collect::<Vec<String>>()
             .join(" OR ");
-        // Always filter out retweets 
-        query.push_str(" -filter:retweets");
         let urlencoded: String = byte_serialize(&query.as_bytes()).collect();
         format!("q={}", urlencoded)
     }

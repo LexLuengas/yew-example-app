@@ -28,8 +28,10 @@ app.get('/test', (req, res) => {
 app.get('/search/:query', function (req, res) {
 	if (req.params.query) {
 		T.get('search/tweets', {
-			q: req.params.query,
-			count: 100
+			q: req.params.query + "+-filter:retweets", // always exclude retweets
+			count: 100,
+			result_type: "recent",
+			lang: "en"
 		}, function (err, data, response) {
 			res.send({
 				"rate_limit_remaining": parseInt(response.headers["x-rate-limit-remaining"]),

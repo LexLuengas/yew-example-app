@@ -89,7 +89,9 @@ impl TweetList {
     }
 
     fn view_tweets_table(tweets: &Vec<TweetData>) -> Html<TweetList> {
-        let columns = columns![("user_name", "User")("text", "Tweet")];
+        let columns = columns![
+            ("user_name", "User")
+            ("text", "Tweet")];
         html! {
             <Table<TweetData>: columns=columns, data=tweets,/>
         }
