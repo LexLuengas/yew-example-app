@@ -2,6 +2,8 @@
 
 A very basic Single-Page Application (SPA) written in Rust with the Yew web framework. It makes requests to the Twitter Search API by a set of user-specified keywords and displays the results in a table.
 
+The architecture is based on Henry Zimmerman's WeekendAtJoes4 SPA (https://github.com/hgzimmerman/WeekendAtJoes4).
+
 ## Setup
 
 Add a file *api/twitter_config.json* containing some valid Twitter API tokens, e.g.
