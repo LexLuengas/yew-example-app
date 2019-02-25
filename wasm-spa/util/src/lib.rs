@@ -6,7 +6,6 @@ extern crate failure_derive;
 #[macro_use]
 extern crate stdweb;
 extern crate base64;
-extern crate pulldown_cmark;
 extern crate chrono;
 #[macro_use]
 extern crate serde_derive;
@@ -31,7 +30,6 @@ pub mod loading;
 pub mod uploadable;
 pub mod wrappers;
 pub mod input;
-pub mod markdown;
 pub mod button;
 pub mod link;
 pub mod table;

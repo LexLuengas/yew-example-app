@@ -10,9 +10,6 @@ members = [
     "util",
     "wire",
 ]
-exclude = [
-    "yew_patterns"
-]
 
 [profile.dev]
 opt-level = 1

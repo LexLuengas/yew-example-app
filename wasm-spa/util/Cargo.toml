@@ -16,7 +16,6 @@ base64 = "0.10.0"
 stdweb = "0.4.13"
 yew = { git = "https://github.com/DenisKolodin/yew", rev = "49319b8c02a8eeb15ed4c8a8761f83adcee856b0" }
 yew_router = { git = "https://github.com/hgzimmerman/YewRouter" }
-pulldown-cmark = { git = "https://github.com/google/pulldown-cmark", rev = "c1ac9123f1653dc774403634696f848ffecbb01c" }
 
 identifiers = {path = "../identifiers"}
 wire = {path = "../wire"}
